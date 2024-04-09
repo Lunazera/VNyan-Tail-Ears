@@ -1,0 +1,50 @@
+{
+    "bones": 6,
+    "name": "TailSway",
+    "inputs": [
+        {
+            "isBlendshape": false,
+            "valueName": "TailWag",
+            "multiplier": 2.0,
+            "isRotation": true
+        },
+        {
+            "isBlendshape": false,
+            "valueName": "TailHeadY",
+            "multiplier": 100.0,
+            "isRotation": true
+        },
+        {
+            "isBlendshape": false,
+            "valueName": "TailHeadZ",
+            "multiplier": 100.0,
+            "isRotation": true
+        }
+    ],
+    "outputs": [
+        {
+            "bone": 2,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": 10.0,
+            "gameObject": "",
+            "offset": 0.0,
+            "transform": 0
+        },
+        {
+            "bone": 2,
+            "blendshape": "",
+            "negative": "",
+            "param": "",
+            "multiplier": 5.0,
+            "gameObject": "",
+            "offset": 0.0,
+            "transform": 0
+        }
+    ],
+    "damping": 0.10000000149011612,
+    "elasticity": 0.05000000074505806,
+    "stiffness": 0.30000001192092898,
+    "inert": 0.10000000149011612
+}
