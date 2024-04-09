@@ -5,6 +5,7 @@ Adds responsive tail and ear movement to your 3D VTuber model! Works through usi
 _note: currently vnyan has a bug that pendulum chains wont save the bone, rotation, or offset values. There are notes in the graph that have the info of what to put here._
 
 Requires at least VNyan version 1.3.4
+Ko-fi link: https://ko-fi.com/s/99936effdc
 ## Tail
 
 ![TailGif](https://github.com/Lunazera/VNyan-Tail-Ears/blob/main/images/Tail-Example-animated.gif)
