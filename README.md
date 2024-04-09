@@ -7,7 +7,7 @@ _note: currently vnyan has a bug that pendulum chains wont save the bone, rotati
 Requires at least VNyan version 1.3.4
 ## Tail
 
-![TailGif](https://github.com/Lunazera/VNyan-Graphs/blob/main/Tail-Ears/Tail-Example-animated.gif)
+![TailGif](https://github.com/Lunazera/VNyan-Tail-Ears/blob/main/images/Tail-Example-animated.gif)
 
 Add dynamic tail movement to your model!
 Requires two accompanying pendulum chains, TailSway and TailSwayY.
@@ -35,7 +35,7 @@ Requires two accompanying pendulum chains, TailSway and TailSwayY.
 You can toggle the smile-wagging and heartrate response off and on with these websocket commands: `ToggleTailWag` & `ToggleTailHeartrate`
 
 ## Ears
-![EarGif](https://github.com/Lunazera/VNyan-Graphs/blob/main/Tail-Ears/Ears-Example-animated.gif)
+![EarGif](https://github.com/Lunazera/VNyan-Tail-Ears/blob/main/images/Ears-Example-animated.gif)
 
 ### Features
 - Ears raise up when you raise your eyebrows, and down when you lower them
