@@ -1,4 +1,4 @@
-# LZ's Tail & Ears
+# LZ's Tail & Ears for VNyan
 
 Adds responsive tail and ear movement to your 3D VTuber model! Works through using pendulum chains to control bone rotations.
 
