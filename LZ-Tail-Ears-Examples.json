@@ -1,0 +1,2060 @@
+{
+    "graphName": "LZ Tail Ears Examples",
+    "graphIsActive": true,
+    "nodes": [
+        {
+            "id": "b568c102-781a-4a1a-9060-8885b058ba85",
+            "values": [
+                {
+                    "key": "triggerName",
+                    "value": "Toggle Responsive Tail"
+                }
+            ],
+            "posX": 912.6944580078125,
+            "posY": 663.9856567382813,
+            "path": "Nodes/TriggerNode",
+            "ownerBlockId": "ab9cd362-c1e9-4b83-b664-721ff1fd6deb",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "054b99f7-775a-41bf-b0e6-d28f3d8d66c9638844757815340062"
+            ],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": [
+                "991c05a9-2468-4d2a-98e8-d7041997079e638844757815340062",
+                "81758baa-c794-4e12-9c61-bf78e55dbb1c638844757815340062",
+                "1f06f16f-d493-4638-9994-b303995c1bc4638844757815340062",
+                "af1bd98b-aa20-4cf3-afdf-b0ec3d6442d5638844757815340062",
+                "bef551d6-556e-4265-a372-56dd85c63024638844757815340062",
+                "a7e28c16-93c4-4ecf-9133-3323e9bdde4b638844757815340062"
+            ]
+        },
+        {
+            "id": "290ab91f-e348-4590-9139-d722519a12fc",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "ResponsiveTail"
+                },
+                {
+                    "key": "value",
+                    "value": "0"
+                }
+            ],
+            "posX": 1604.695556640625,
+            "posY": 703.9837036132813,
+            "path": "Nodes/SetTextParamNode",
+            "ownerBlockId": "ab9cd362-c1e9-4b83-b664-721ff1fd6deb",
+            "inputSocketIds": [
+                "ec80fdbf-643e-4a8d-919c-f50a2f901d0f638844757815345183"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 6,
+            "inputValueSocketIds": [
+                "5e085095-14fa-4a44-8197-aa4ddd6463a6638844757815345183",
+                "abe93523-f7ba-41ff-a4da-0165dd2df69d638844757815345183"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "f1ed7730-6fac-4ee2-9160-fa501ca3706b",
+            "values": [],
+            "posX": 1362.6943359375,
+            "posY": 709.9837036132813,
+            "path": "Nodes/FilterBoolNode",
+            "ownerBlockId": "ab9cd362-c1e9-4b83-b664-721ff1fd6deb",
+            "inputSocketIds": [
+                "c312ae2a-010e-4e7e-ac11-07f815355de2638844757815350424"
+            ],
+            "outputSocketIds": [
+                "c69943f4-7776-4851-8a8e-0dcc8be41891638844757815350424",
+                "8fd9dc3c-3062-49a5-a913-649cc6119cb2638844757815350424"
+            ],
+            "headerColor": 7,
+            "inputValueSocketIds": [
+                "4b47b68a-91d4-4aa7-90a0-9f5f83de4a93638844757815350424"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "9910a02a-c817-4e1d-a28d-1bcc36778ab2",
+            "values": [
+                {
+                    "key": "text",
+                    "value": "<ResponsiveTail>"
+                }
+            ],
+            "posX": 1145.6943359375,
+            "posY": 712.9837036132813,
+            "path": "Nodes/TextToBoolNode",
+            "ownerBlockId": "ab9cd362-c1e9-4b83-b664-721ff1fd6deb",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 7,
+            "inputValueSocketIds": [
+                "7a60bba4-f4cc-4b5a-84fc-b7985a4be999638844757815350424"
+            ],
+            "outputValueSocketIds": [
+                "1baf6b6c-2fca-4661-9416-7014ce94ace0638844757815350424"
+            ]
+        },
+        {
+            "id": "392e7480-d439-419b-8c06-1e772777c74a",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "ResponsiveTail"
+                },
+                {
+                    "key": "value",
+                    "value": "1"
+                }
+            ],
+            "posX": 1816.029541015625,
+            "posY": 698.9837036132813,
+            "path": "Nodes/SetTextParamNode",
+            "ownerBlockId": "ab9cd362-c1e9-4b83-b664-721ff1fd6deb",
+            "inputSocketIds": [
+                "7bf18e4c-17cc-4918-9e7a-b35dc5fb75cd638844757815355507"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 6,
+            "inputValueSocketIds": [
+                "13322e13-7879-4fc1-97b9-25de05693e15638844757815355507",
+                "955c9b1f-0120-4b20-8746-689d998b156c638844757815355507"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "54a52c73-f34e-41e3-8e7a-575daa53f769",
+            "values": [
+                {
+                    "key": "triggerName",
+                    "value": "Tail Scared"
+                }
+            ],
+            "posX": -1232.321533203125,
+            "posY": -820.6770629882813,
+            "path": "Nodes/TriggerNode",
+            "ownerBlockId": "85e6ca31-082c-45e9-acb0-b2e840f94314",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "778910ac-632b-441c-8dac-d437a1faf1c5638844757815360757"
+            ],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": [
+                "d2e29648-f4d2-4023-84de-c2eb85582ed2638844757815360757",
+                "e85bdf85-3824-434a-9a1f-6ad3d332138b638844757815360757",
+                "b2651c15-6872-4c2f-bd49-7bdd5caa49e0638844757815360757",
+                "1410e186-fb05-4094-8416-5d0421607390638844757815360757",
+                "6c1c2bc0-923b-4bae-9f7f-16818ac1072b638844757815360757",
+                "91f24191-6ecd-42ae-a0b4-1569757e2d16638844757815360757"
+            ]
+        },
+        {
+            "id": "10bf5974-3569-4bff-8e3e-8a1706444047",
+            "values": [
+                {
+                    "key": "bsValue",
+                    "value": "95"
+                },
+                {
+                    "key": "bsName",
+                    "value": "TailMoveLess"
+                },
+                {
+                    "key": "isToggle",
+                    "value": "1"
+                },
+                {
+                    "key": "smoothTime",
+                    "value": "1"
+                },
+                {
+                    "key": "const",
+                    "value": "TailMoveMore"
+                }
+            ],
+            "posX": -992.9864501953125,
+            "posY": -838.6802978515625,
+            "path": "Nodes/BlendshapeNode",
+            "ownerBlockId": "85e6ca31-082c-45e9-acb0-b2e840f94314",
+            "inputSocketIds": [
+                "d271b59f-b2c6-4210-b3c3-a42c7eac1b3d638844757815365899"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 5,
+            "inputValueSocketIds": [
+                "c626a37d-4dab-4f31-ba12-d059aeb17b49638844757815365899",
+                "6bfb7531-d453-4c9c-bae4-bbcd58f646fc638844757815365899",
+                "f3d8a7ca-a506-4da2-a4b7-349b4d391b1a638844757815365899",
+                "4fb50394-7b7e-479b-a4eb-1224208b19c9638844757815365899",
+                "ce229cbe-5a59-463d-b32a-e581c6086142638844757815365899"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "e1f05f94-7ddc-4f11-b8f4-3b783e5ee584",
+            "values": [
+                {
+                    "key": "bsValue",
+                    "value": "100"
+                },
+                {
+                    "key": "bsName",
+                    "value": "TailReactOff"
+                },
+                {
+                    "key": "isToggle",
+                    "value": "1"
+                },
+                {
+                    "key": "smoothTime",
+                    "value": "1"
+                },
+                {
+                    "key": "const",
+                    "value": ""
+                }
+            ],
+            "posX": -748.986083984375,
+            "posY": -839.013671875,
+            "path": "Nodes/BlendshapeNode",
+            "ownerBlockId": "85e6ca31-082c-45e9-acb0-b2e840f94314",
+            "inputSocketIds": [
+                "4472d713-b312-4bb4-8f30-8519d0fa7c42638844757815371153"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 5,
+            "inputValueSocketIds": [
+                "e8a68d65-878b-4831-9ab0-7827ef9a8cb5638844757815371153",
+                "68ddf147-61b0-4021-90e5-765ae9fac80c638844757815371153",
+                "522589b3-080e-41f0-9f46-3984ac8c9756638844757815371153",
+                "9214a9bc-7c75-419a-9f41-561c2f628565638844757815371153",
+                "e60875fe-3c0f-4ec1-a833-3fc41f51f530638844757815371153"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "cfd6beb5-3070-4f7b-8960-04a80ae5afd4",
+            "values": [
+                {
+                    "key": "bsValue",
+                    "value": "50"
+                },
+                {
+                    "key": "bsName",
+                    "value": "TailDown"
+                },
+                {
+                    "key": "isToggle",
+                    "value": "1"
+                },
+                {
+                    "key": "smoothTime",
+                    "value": "1"
+                },
+                {
+                    "key": "const",
+                    "value": ""
+                }
+            ],
+            "posX": -750.98681640625,
+            "posY": -1120.68017578125,
+            "path": "Nodes/BlendshapeNode",
+            "ownerBlockId": "85e6ca31-082c-45e9-acb0-b2e840f94314",
+            "inputSocketIds": [
+                "33efbaf0-0f63-43c4-bd03-652aad80e6c8638844757815376288"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 5,
+            "inputValueSocketIds": [
+                "f126f8e7-5536-4f39-825e-aa72d47d90b9638844757815376288",
+                "106f79f0-5f3c-41a0-88af-ae843edc9d49638844757815376288",
+                "893f4546-db63-40bd-8ab3-a2731d75fdc0638844757815376288",
+                "f53288a0-62b4-4c97-b662-273f57e14790638844757815376288",
+                "0d1fbba1-2a5f-4a4c-82e8-a4f10f1b91c7638844757815376288"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "911d0f61-d8da-4993-a77f-d6c71a133bc0",
+            "values": [
+                {
+                    "key": "bsValue",
+                    "value": "500"
+                },
+                {
+                    "key": "bsName",
+                    "value": "TailWagMore"
+                },
+                {
+                    "key": "isToggle",
+                    "value": "1"
+                },
+                {
+                    "key": "smoothTime",
+                    "value": "1"
+                },
+                {
+                    "key": "const",
+                    "value": ""
+                }
+            ],
+            "posX": -992.986083984375,
+            "posY": -1123.680419921875,
+            "path": "Nodes/BlendshapeNode",
+            "ownerBlockId": "85e6ca31-082c-45e9-acb0-b2e840f94314",
+            "inputSocketIds": [
+                "e3f4667e-0a5a-4787-9b19-078331ee44fe638844757815381528"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 5,
+            "inputValueSocketIds": [
+                "70f21e16-ee97-419a-840f-d986406b676c638844757815381528",
+                "31130f05-7152-4562-96fc-63e11c8c972a638844757815381528",
+                "8ace85e8-c351-4aff-9058-22126aa560d8638844757815381528",
+                "ee7cf984-13a8-4c16-82ba-5325e2f0b63e638844757815381528",
+                "1c3bf7f9-bfcf-4a99-ad3a-7464be7ee084638844757815381528"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "bfb1674d-0369-482e-b938-36929d1c3f38",
+            "values": [
+                {
+                    "key": "triggerName",
+                    "value": "Tail Left"
+                }
+            ],
+            "posX": -1215.987060546875,
+            "posY": 160.99172973632813,
+            "path": "Nodes/TriggerNode",
+            "ownerBlockId": "59d5c638-8dae-4d68-8d16-c6b6de4feead",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "c55d9e24-904c-429d-bcdb-5fe7fd907339638844757815386655"
+            ],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": [
+                "b51b6813-6db1-4b5b-9438-33ae321dcc9e638844757815386655",
+                "1ce011a7-c2d0-49c4-a572-9a43c4d250af638844757815386655",
+                "fee0267e-4f49-45fd-9c89-f9450c5ab6f4638844757815386655",
+                "4e224939-8d6e-4ddb-a4bc-d054a8967aad638844757815386655",
+                "ca7c5412-bb28-4372-9a08-29f5f6ff2efe638844757815386655",
+                "514dde5a-fd3e-4086-a3fd-2539c038e05e638844757815386655"
+            ]
+        },
+        {
+            "id": "2b597dc7-8cad-4ba2-9377-19fff0a4412f",
+            "values": [
+                {
+                    "key": "bsValue",
+                    "value": "100"
+                },
+                {
+                    "key": "bsName",
+                    "value": "TailLeft"
+                },
+                {
+                    "key": "isToggle",
+                    "value": "1"
+                },
+                {
+                    "key": "smoothTime",
+                    "value": "1"
+                },
+                {
+                    "key": "const",
+                    "value": "TailRight"
+                }
+            ],
+            "posX": -958.6511840820313,
+            "posY": 163.32180786132813,
+            "path": "Nodes/BlendshapeNode",
+            "ownerBlockId": "59d5c638-8dae-4d68-8d16-c6b6de4feead",
+            "inputSocketIds": [
+                "fa5da7dc-02e7-47b8-8253-d0e49dd3f4f2638844757815391871"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 5,
+            "inputValueSocketIds": [
+                "529d5717-eb62-494b-b92b-c866c792934a638844757815391871",
+                "7e50a35c-7d01-46a0-a6e5-0192547bf809638844757815391871",
+                "44147ec5-aa10-47ba-94d7-69495b37457d638844757815391871",
+                "78581105-0397-4c67-93e3-43d37fbe4c36638844757815391871",
+                "66338fb2-93f0-4a4c-ba15-7d744311f29d638844757815391871"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "29565cef-4e09-4193-9241-2399d3741f5c",
+            "values": [
+                {
+                    "key": "triggerName",
+                    "value": "Tail Happy"
+                }
+            ],
+            "posX": 317.6815490722656,
+            "posY": -802.3442993164063,
+            "path": "Nodes/TriggerNode",
+            "ownerBlockId": "45ff3cd6-c5bf-44ba-9ede-8482145864c5",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "742a5029-4915-4249-8d62-1716fe344e0b638844757815428722"
+            ],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": [
+                "7885e86f-1b45-462d-82d3-59cd93e99ee4638844757815428722",
+                "fb0914b2-8fa8-4754-815b-fedd6beaaf26638844757815428722",
+                "a1f88b15-5bcd-45d1-a2f4-e4da6ab8baca638844757815428722",
+                "022f8cd2-06d2-41b8-9ebb-0bfb48ba96a6638844757815428722",
+                "44977ad3-6000-4aac-a387-176b8dba51e6638844757815428722",
+                "a7ffcb2d-894b-4c35-8e79-19ea2ad48185638844757815428722"
+            ]
+        },
+        {
+            "id": "735feed4-7556-466e-b007-d1dc6068abe9",
+            "values": [
+                {
+                    "key": "bsValue",
+                    "value": "40"
+                },
+                {
+                    "key": "bsName",
+                    "value": "TailMoveMore"
+                },
+                {
+                    "key": "isToggle",
+                    "value": "1"
+                },
+                {
+                    "key": "smoothTime",
+                    "value": "1"
+                },
+                {
+                    "key": "const",
+                    "value": "TailMoveLess"
+                }
+            ],
+            "posX": 559.0164184570313,
+            "posY": -819.0147705078125,
+            "path": "Nodes/BlendshapeNode",
+            "ownerBlockId": "45ff3cd6-c5bf-44ba-9ede-8482145864c5",
+            "inputSocketIds": [
+                "4ddb2d55-3059-4616-b4e9-45dfd1af2dc7638844757815439192"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 5,
+            "inputValueSocketIds": [
+                "6dcdf661-a54f-4ec4-840a-d58edef96f53638844757815439192",
+                "a61e3fe2-a752-475f-9164-f9060e9545a8638844757815439192",
+                "b229a5ab-0f11-44c6-bf3a-5dbaf5e2890b638844757815439192",
+                "89a231b1-be3e-418e-aa0e-855d5d0c2341638844757815439192",
+                "435d9758-1efe-4055-b2bf-967602f32875638844757815439192"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "bbdf1df6-4254-4d44-b274-693a290ad72a",
+            "values": [
+                {
+                    "key": "bsValue",
+                    "value": "100"
+                },
+                {
+                    "key": "bsName",
+                    "value": "TailWagMore"
+                },
+                {
+                    "key": "isToggle",
+                    "value": "1"
+                },
+                {
+                    "key": "smoothTime",
+                    "value": "1"
+                },
+                {
+                    "key": "const",
+                    "value": "TailWagLess"
+                }
+            ],
+            "posX": 558.6834106445313,
+            "posY": -1100.34716796875,
+            "path": "Nodes/BlendshapeNode",
+            "ownerBlockId": "45ff3cd6-c5bf-44ba-9ede-8482145864c5",
+            "inputSocketIds": [
+                "2e8efef1-0eaf-4680-85d5-835b0d832249638844757815444402"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 5,
+            "inputValueSocketIds": [
+                "65b9e751-8571-407b-917d-3396cb6d9785638844757815444402",
+                "6381cd68-c974-41cc-9ed4-90571b61c427638844757815444402",
+                "5800a952-5a80-477d-9913-3986be9b89e5638844757815444402",
+                "17163c15-0706-4f48-9c83-f0f4ac206410638844757815444402",
+                "e13d1f96-ac67-420c-a783-540e29b9ebf4638844757815444402"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "ca3f0fff-e38c-4f0c-868c-9029e4ec7932",
+            "values": [
+                {
+                    "key": "triggerName",
+                    "value": "Tail Sad"
+                }
+            ],
+            "posX": -475.6473693847656,
+            "posY": -803.345458984375,
+            "path": "Nodes/TriggerNode",
+            "ownerBlockId": "512505fe-f67f-48dd-b54d-59f7cd8bba26",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "c8f2c057-4a61-45cd-a8ef-6bc49c28aaf7638844757815449531"
+            ],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": [
+                "1c8f1bc2-bcc0-4789-bfc0-2cefbb179222638844757815449531",
+                "c60030dc-2450-4eb0-b3b6-903448700ef8638844757815449531",
+                "07e099f9-174a-4df7-9e13-15def12d8618638844757815449531",
+                "3c00a34f-2d1e-49af-9b0a-41bccc1a9102638844757815449531",
+                "f3eef25d-ee6d-4b0a-9164-fdcc212536ce638844757815449531",
+                "641352ff-dc96-4426-8073-91bcf343908c638844757815449531"
+            ]
+        },
+        {
+            "id": "bae3261f-a1e5-4852-8942-1e71bf7d525a",
+            "values": [
+                {
+                    "key": "bsValue",
+                    "value": "60"
+                },
+                {
+                    "key": "bsName",
+                    "value": "TailMoveLess"
+                },
+                {
+                    "key": "isToggle",
+                    "value": "1"
+                },
+                {
+                    "key": "smoothTime",
+                    "value": "1"
+                },
+                {
+                    "key": "const",
+                    "value": "TailMoveMore"
+                }
+            ],
+            "posX": -233.31134033203126,
+            "posY": -819.347412109375,
+            "path": "Nodes/BlendshapeNode",
+            "ownerBlockId": "512505fe-f67f-48dd-b54d-59f7cd8bba26",
+            "inputSocketIds": [
+                "542360e7-0e4f-4ced-8206-d494c3b93dc8638844757815454766"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 5,
+            "inputValueSocketIds": [
+                "795f6cdf-febb-4cb0-a49d-20fc77f8c7b1638844757815454766",
+                "f3c34c14-60f6-4621-b4b7-a1277fa9262f638844757815454766",
+                "74cdd178-a7dc-4f26-9797-7aabed3bedf8638844757815454766",
+                "01f23d80-3b56-484c-9070-44b3afdc0a86638844757815454766",
+                "44de957e-a681-4b8c-a1ce-c23b92947db4638844757815454766"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "c3a5b8bd-5cef-4e5a-aaf2-7f215adc1b00",
+            "values": [
+                {
+                    "key": "bsValue",
+                    "value": "50"
+                },
+                {
+                    "key": "bsName",
+                    "value": "TailWagLess"
+                },
+                {
+                    "key": "isToggle",
+                    "value": "1"
+                },
+                {
+                    "key": "smoothTime",
+                    "value": "1"
+                },
+                {
+                    "key": "const",
+                    "value": "TailWagMore"
+                }
+            ],
+            "posX": -233.64532470703126,
+            "posY": -1109.0137939453125,
+            "path": "Nodes/BlendshapeNode",
+            "ownerBlockId": "512505fe-f67f-48dd-b54d-59f7cd8bba26",
+            "inputSocketIds": [
+                "2fae502a-871c-4d34-856d-1dc84ae21bf1638844757815459884"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 5,
+            "inputValueSocketIds": [
+                "f4686279-3e81-40b9-8bb8-1463fc981485638844757815459884",
+                "aef5cf68-7dea-4288-be30-aa7307412921638844757815459884",
+                "ebd52a5e-6212-450f-96a6-2373a1fd433e638844757815459884",
+                "626128f5-58b7-41da-a651-b32eee60e83e638844757815459884",
+                "2b44c2f8-9db4-469d-8af2-0a62838395aa638844757815459884"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "986fc902-c7fd-4efc-b7a1-908e77953f47",
+            "values": [
+                {
+                    "key": "bsValue",
+                    "value": "100"
+                },
+                {
+                    "key": "bsName",
+                    "value": "TailReactOff"
+                },
+                {
+                    "key": "isToggle",
+                    "value": "1"
+                },
+                {
+                    "key": "smoothTime",
+                    "value": "1"
+                },
+                {
+                    "key": "const",
+                    "value": ""
+                }
+            ],
+            "posX": 20.35430908203125,
+            "posY": -825.348876953125,
+            "path": "Nodes/BlendshapeNode",
+            "ownerBlockId": "512505fe-f67f-48dd-b54d-59f7cd8bba26",
+            "inputSocketIds": [
+                "7bfddfbc-dd76-4017-9ae6-864287491574638844757815465122"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 5,
+            "inputValueSocketIds": [
+                "7f524ec9-6aed-4095-9699-c02e93c51dc4638844757815465122",
+                "ee3f0294-3824-45d9-896f-9c462bae5b0e638844757815465122",
+                "3a4b2e4c-cdbd-46bd-8f4c-07ce4ac5b84b638844757815465122",
+                "827011e9-8415-43b9-a9a4-9f8292b0a10a638844757815465122",
+                "5c21cd34-0dea-4dfe-8fa4-4417eba11f51638844757815465122"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "e5def2d8-1593-4e47-96a4-d7e937354bbb",
+            "values": [
+                {
+                    "key": "bsValue",
+                    "value": "40"
+                },
+                {
+                    "key": "bsName",
+                    "value": "TailDown"
+                },
+                {
+                    "key": "isToggle",
+                    "value": "1"
+                },
+                {
+                    "key": "smoothTime",
+                    "value": "1"
+                },
+                {
+                    "key": "const",
+                    "value": "TailRaise"
+                }
+            ],
+            "posX": 30.02130126953125,
+            "posY": -1114.6824951171875,
+            "path": "Nodes/BlendshapeNode",
+            "ownerBlockId": "512505fe-f67f-48dd-b54d-59f7cd8bba26",
+            "inputSocketIds": [
+                "5b36fe47-475c-4d91-be88-a306b9c7ec86638844757815475516"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 5,
+            "inputValueSocketIds": [
+                "bfa73633-c912-47f4-ba5b-94203c1f0dd2638844757815475516",
+                "541d702b-014e-4777-9e8e-f78f1cc28cf1638844757815475516",
+                "a516820e-74d2-4cb3-a190-3345a8d8511b638844757815475516",
+                "f9d58102-b4a7-4369-8fc4-9c3501bf91f1638844757815475516",
+                "d41c2efe-3a43-4d1e-9e1c-c4f451f98775638844757815475516"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "66602137-249e-4b1e-b9eb-5110cfd55d0d",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "533"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "349"
+                },
+                {
+                    "key": "message",
+                    "value": "<size=30>Blendshape Control Examples</size>\n\nThese are a bunch of example triggers for using the blendshape controls. Feel free to test them out, use or change them as you need!\n\n"
+                }
+            ],
+            "posX": -256.9862060546875,
+            "posY": 590.65869140625,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 6,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "85023d51-2fc9-478d-8311-b7cdcbd128f6",
+            "values": [
+                {
+                    "key": "triggerName",
+                    "value": "Tail Stop Wagging"
+                }
+            ],
+            "posX": -115.65034484863281,
+            "posY": -74.34249877929688,
+            "path": "Nodes/TriggerNode",
+            "ownerBlockId": "e7a7d53a-82f4-4382-bac9-0e6c5d000f3e",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "64527794-e00c-477f-81a1-ad58c629deba638844757815485858"
+            ],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": [
+                "af151f4d-c18a-4d7a-9dae-dc75ade2dbbb638844757815485858",
+                "96aaa158-3d26-4d07-8f2a-d99d1d5f0bab638844757815485858",
+                "611a9196-fa45-4f69-8c82-6341151ea794638844757815485858",
+                "e9c405be-4684-4adf-8c6a-26cb3c762a75638844757815485858",
+                "392a1fab-e654-464e-8eba-b9e1c0a2028e638844757815485858",
+                "f10c03fa-f39d-4470-9eca-697f14b19b3f638844757815485858"
+            ]
+        },
+        {
+            "id": "13d6e2d5-8471-4469-b794-21bd2480bca2",
+            "values": [
+                {
+                    "key": "bsValue",
+                    "value": "100"
+                },
+                {
+                    "key": "bsName",
+                    "value": "TailReactOff"
+                },
+                {
+                    "key": "isToggle",
+                    "value": "1"
+                },
+                {
+                    "key": "smoothTime",
+                    "value": "1"
+                },
+                {
+                    "key": "const",
+                    "value": ""
+                }
+            ],
+            "posX": 135.6857452392578,
+            "posY": -94.01242065429688,
+            "path": "Nodes/BlendshapeNode",
+            "ownerBlockId": "e7a7d53a-82f4-4382-bac9-0e6c5d000f3e",
+            "inputSocketIds": [
+                "3a02b6be-1198-4261-a21f-df55ab554366638844757815490932"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 5,
+            "inputValueSocketIds": [
+                "7e574755-bd39-4cd2-969d-68b1a340b517638844757815490932",
+                "9a2708a1-b74e-4614-9340-646bee0e967c638844757815490932",
+                "7fe5e22a-5cb4-4346-8c89-1574876b39e3638844757815490932",
+                "73703691-6838-4de8-a224-121b7ae8cf3c638844757815490932",
+                "e515f67a-77c6-403c-add8-1eb69d349513638844757815490932"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "0fcbe0db-5a42-4efe-b5d6-1ce49f90755b",
+            "values": [
+                {
+                    "key": "triggerName",
+                    "value": "EarLeft"
+                }
+            ],
+            "posX": 1520.843505859375,
+            "posY": -301.98590087890627,
+            "path": "Nodes/TriggerNode",
+            "ownerBlockId": "cf71cd96-e7ab-408d-a873-fccf75ab7217",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "2a5709b3-0025-49b4-ac32-82c327bb88c9638844757815496150"
+            ],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": [
+                "0bb34849-484f-41ab-a526-a603bd95950b638844757815496150",
+                "77f56340-f9e2-466f-9fac-ccaf0684b0cb638844757815496150",
+                "33a3ba0d-4689-41b4-80e6-7ca2cf610d2b638844757815496150",
+                "fbbe2008-8399-4ae2-9f76-e38ac1cfdceb638844757815496150",
+                "dd700904-395b-48fd-87f3-bbcf79809afc638844757815496150",
+                "a1d0425f-cf45-47bf-88ae-b6f0d7a9317a638844757815496150"
+            ]
+        },
+        {
+            "id": "57cbbf9d-91f5-42c2-83d6-5b894e88c2c8",
+            "values": [
+                {
+                    "key": "bsValue",
+                    "value": "100"
+                },
+                {
+                    "key": "bsName",
+                    "value": "EarLeft"
+                },
+                {
+                    "key": "isToggle",
+                    "value": "1"
+                },
+                {
+                    "key": "smoothTime",
+                    "value": "1"
+                },
+                {
+                    "key": "const",
+                    "value": ""
+                }
+            ],
+            "posX": 1772.8468017578125,
+            "posY": -315.98590087890627,
+            "path": "Nodes/BlendshapeNode",
+            "ownerBlockId": "cf71cd96-e7ab-408d-a873-fccf75ab7217",
+            "inputSocketIds": [
+                "bb0ced3a-d0e9-471c-b10d-2be2aa22f3a1638844757815501310"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 5,
+            "inputValueSocketIds": [
+                "6d4155ef-cfcd-4c07-bc99-32b6c6ca6b02638844757815501310",
+                "34b49dde-3b57-433a-bd6c-cc0df837a2c9638844757815501310",
+                "e0d54251-2632-42d9-8e81-b517a494ea1d638844757815501310",
+                "21d74a1e-cb50-43ec-acb3-b6f182500a49638844757815501310",
+                "dc2d86e6-9c36-4bdf-b7b5-94029476a4bc638844757815501310"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "3ae7c693-bec6-4870-8f12-a8b7cb4c2429",
+            "values": [
+                {
+                    "key": "triggerName",
+                    "value": "EarRight"
+                }
+            ],
+            "posX": 1522.8487548828125,
+            "posY": 171.00836181640626,
+            "path": "Nodes/TriggerNode",
+            "ownerBlockId": "0362b1c4-a7ae-4195-ab58-f9fc302316a1",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "0fa33bc3-ec9d-4ad9-99ab-15072f288f13638844757815506567"
+            ],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": [
+                "5f04aa7f-1a26-49b2-9add-6d8ce2338c8d638844757815506567",
+                "7ec8f5f6-45f2-431b-bff5-e14f47cd36dc638844757815506567",
+                "0376fc78-f2b0-4072-8dc3-96df291d44c1638844757815506567",
+                "d3bfa17a-dff3-4441-8017-6e6670b21035638844757815506567",
+                "01d63cac-2824-427a-87a8-884eda6b39db638844757815506567",
+                "2150fde8-517b-4bed-b7b0-2a34eadd861a638844757815506567"
+            ]
+        },
+        {
+            "id": "b57a1e14-cfad-436d-8a24-1b20e850d1db",
+            "values": [
+                {
+                    "key": "bsValue",
+                    "value": "100"
+                },
+                {
+                    "key": "bsName",
+                    "value": "EarRight"
+                },
+                {
+                    "key": "isToggle",
+                    "value": "1"
+                },
+                {
+                    "key": "smoothTime",
+                    "value": "1"
+                },
+                {
+                    "key": "const",
+                    "value": ""
+                }
+            ],
+            "posX": 1774.8502197265625,
+            "posY": 157.00836181640626,
+            "path": "Nodes/BlendshapeNode",
+            "ownerBlockId": "0362b1c4-a7ae-4195-ab58-f9fc302316a1",
+            "inputSocketIds": [
+                "1b19de29-8df5-4d8e-8f66-fa57feb6073c638844757815511696"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 5,
+            "inputValueSocketIds": [
+                "3044ff0d-250d-4981-a7b2-dc975c0e9b82638844757815511696",
+                "6b093201-02c8-4533-81cd-fbdf1b08bfaf638844757815511696",
+                "c5408fcc-7ea6-454b-94e2-953d89b600ad638844757815511696",
+                "433e8e2b-5f92-466e-858f-babb5ce776b3638844757815511696",
+                "cee39b09-f0af-4149-a074-fa81eb767f80638844757815511696"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "cb409ba5-216f-4996-8a3e-f1742a287988",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "492"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "123"
+                },
+                {
+                    "key": "message",
+                    "value": "<size=20>Move Tail to the left</size>"
+                }
+            ],
+            "posX": -1333.998291015625,
+            "posY": 432.00238037109377,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "59d5c638-8dae-4d68-8d16-c6b6de4feead",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "231d4e8b-13b2-42b6-8ad7-45a761222a98",
+            "values": [
+                {
+                    "key": "triggerName",
+                    "value": "Tail Left"
+                }
+            ],
+            "posX": -679.3197631835938,
+            "posY": 159.3240966796875,
+            "path": "Nodes/TriggerNode",
+            "ownerBlockId": "f8473140-0c5c-42cf-9150-8860bdfbab1d",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "52765876-0025-4e92-8d80-92b0237b2ecf638844809912778393"
+            ],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": [
+                "7bd84dd7-0e55-4bc1-aa5b-f7fe7dc52575638844809912778393",
+                "67af7e0d-4a3b-4dbd-af5d-3e735009b489638844809912778393",
+                "4cbf9ea0-b236-41f0-806e-dfa9616f00b4638844809912778393",
+                "7c5abd83-1fc7-4451-9fa8-d7b2aecb0413638844809912778393",
+                "d9773c36-ab26-40d5-b819-cfd92c5e9194638844809912778393",
+                "ceea229d-ea4b-4451-bbb8-508d6793f0e0638844809912778393"
+            ]
+        },
+        {
+            "id": "95d2d473-ad47-4a8b-b27a-4e819efea9ef",
+            "values": [
+                {
+                    "key": "bsValue",
+                    "value": "100"
+                },
+                {
+                    "key": "bsName",
+                    "value": "TailRight"
+                },
+                {
+                    "key": "isToggle",
+                    "value": "1"
+                },
+                {
+                    "key": "smoothTime",
+                    "value": "1"
+                },
+                {
+                    "key": "const",
+                    "value": "TailLeft"
+                }
+            ],
+            "posX": -421.98388671875,
+            "posY": 161.6541748046875,
+            "path": "Nodes/BlendshapeNode",
+            "ownerBlockId": "f8473140-0c5c-42cf-9150-8860bdfbab1d",
+            "inputSocketIds": [
+                "3101096c-f18e-4de0-882b-10d282d47217638844809912788738"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 5,
+            "inputValueSocketIds": [
+                "74e5fed0-8ce7-41ed-99b3-fa67105807c7638844809912788738",
+                "257678c4-d559-430f-b59d-bd20fbea4f2e638844809912788738",
+                "9b04839c-d636-451f-80fe-a81345b84ce7638844809912788738",
+                "76410126-715d-40e4-8f55-8785059add49638844809912788738",
+                "f0bba4f4-8465-4cc3-ac5e-778c8221e15b638844809912788738"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "6a3b1df0-2f48-40f5-bf3b-73a67d7646b3",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "492"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "123"
+                },
+                {
+                    "key": "message",
+                    "value": "<size=20>Move Tail to the right</size>"
+                }
+            ],
+            "posX": -797.3309936523438,
+            "posY": 430.3347473144531,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "f8473140-0c5c-42cf-9150-8860bdfbab1d",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "44307823-241f-4f80-a44f-a9ef8b2710a2",
+            "values": [
+                {
+                    "key": "triggerName",
+                    "value": "Tail Up"
+                }
+            ],
+            "posX": -1215.990966796875,
+            "posY": -305.6758117675781,
+            "path": "Nodes/TriggerNode",
+            "ownerBlockId": "8bf45761-bc50-495a-89f1-3fa9f46fa2e5",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "615e575a-3ab4-4821-948c-fb762b223d39638844810211519967"
+            ],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": [
+                "04d0d0f2-650f-4100-bd93-c22bc285518b638844810211519967",
+                "b7691390-bf22-457d-bd53-183e493c7872638844810211519967",
+                "c0380c24-fd83-4f8b-9088-444b3bfaf4d2638844810211519967",
+                "c2a8ca82-8758-485a-bd68-d9a465757cda638844810211519967",
+                "ef317071-4b53-407c-b2f5-942a080d58e1638844810211519967",
+                "5506ec73-a2ae-4412-8b57-d39a93f72bdc638844810211519967"
+            ]
+        },
+        {
+            "id": "e62e4a7c-8cd8-4c3e-8c1a-babd7e446d86",
+            "values": [
+                {
+                    "key": "bsValue",
+                    "value": "100"
+                },
+                {
+                    "key": "bsName",
+                    "value": "TailRaise"
+                },
+                {
+                    "key": "isToggle",
+                    "value": "1"
+                },
+                {
+                    "key": "smoothTime",
+                    "value": "1"
+                },
+                {
+                    "key": "const",
+                    "value": "TailDown"
+                }
+            ],
+            "posX": -958.655029296875,
+            "posY": -303.3457336425781,
+            "path": "Nodes/BlendshapeNode",
+            "ownerBlockId": "8bf45761-bc50-495a-89f1-3fa9f46fa2e5",
+            "inputSocketIds": [
+                "90ee8bbc-232b-4194-88e9-467df4779043638844810211525161"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 5,
+            "inputValueSocketIds": [
+                "15fb17fc-1e0e-489b-930c-a2bb8f42d561638844810211525161",
+                "a732054b-f9b5-499b-b484-db0de2f0621c638844810211525161",
+                "71194fa0-45be-4e34-8fb2-c867cd79dc62638844810211525161",
+                "63a50cec-397d-43d9-86df-54a42d1f132c638844810211525161",
+                "1ef2c8c9-c8c0-4b6b-a4c1-4558c431818e638844810211525161"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "23f7c100-8241-4c72-acb2-98eefbbf4a6b",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "492"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "123"
+                },
+                {
+                    "key": "message",
+                    "value": "<size=20>Move Tail Up</size>"
+                }
+            ],
+            "posX": -1334.002197265625,
+            "posY": -34.66520690917969,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "8bf45761-bc50-495a-89f1-3fa9f46fa2e5",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "dfc9c50f-fade-4c42-8ac0-65fea7eb86e6",
+            "values": [
+                {
+                    "key": "triggerName",
+                    "value": "Tail Down"
+                }
+            ],
+            "posX": -677.6560668945313,
+            "posY": -305.6717224121094,
+            "path": "Nodes/TriggerNode",
+            "ownerBlockId": "70ca4392-f959-4e2d-8479-48a27fb4a00c",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "96477ad8-7530-401a-ad7e-f8790165bb51638844810486519804"
+            ],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": [
+                "d535d0f9-3c24-4cd6-a913-03c93f3c714e638844810486519804",
+                "e4aa6a9a-eea3-4649-849c-727a65069e0c638844810486519804",
+                "5bb2c0e4-0e57-40c4-b2fc-dff884d83240638844810486519804",
+                "0ac13881-b7eb-4c90-b9cc-10321eb2a5aa638844810486519804",
+                "68f10b86-f1ed-481a-8a91-cc8060b2958e638844810486519804",
+                "cd19fe5b-4053-4675-9680-25e95bef84b3638844810486519804"
+            ]
+        },
+        {
+            "id": "98cc34a9-3539-4663-ae8e-ca983880d1ca",
+            "values": [
+                {
+                    "key": "bsValue",
+                    "value": "100"
+                },
+                {
+                    "key": "bsName",
+                    "value": "TailDown"
+                },
+                {
+                    "key": "isToggle",
+                    "value": "1"
+                },
+                {
+                    "key": "smoothTime",
+                    "value": "1"
+                },
+                {
+                    "key": "const",
+                    "value": "TailRaise"
+                }
+            ],
+            "posX": -420.32025146484377,
+            "posY": -303.3416442871094,
+            "path": "Nodes/BlendshapeNode",
+            "ownerBlockId": "70ca4392-f959-4e2d-8479-48a27fb4a00c",
+            "inputSocketIds": [
+                "a59db669-1823-4e80-b021-e7cf789e7337638844810486524979"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 5,
+            "inputValueSocketIds": [
+                "c0e1f349-bc17-43bc-88c3-3d86e16606b1638844810486524979",
+                "90275d28-7077-41b9-b88d-fde297e03029638844810486524979",
+                "62c6124d-fae8-414d-b2c1-6c42e59ecf87638844810486524979",
+                "786ff80a-924a-4221-86a7-dbf212116a32638844810486524979",
+                "46c88a73-045b-4345-8729-7cf31e8765e1638844810486524979"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "b9721a8b-9204-4261-ba3b-fe982138ad43",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "492"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "123"
+                },
+                {
+                    "key": "message",
+                    "value": "<size=20>Move Tail Down</size>"
+                }
+            ],
+            "posX": -795.6672973632813,
+            "posY": -34.66111755371094,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "70ca4392-f959-4e2d-8479-48a27fb4a00c",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "017cb2ab-ef8e-47d9-87ee-5866be19243a",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "492"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "123"
+                },
+                {
+                    "key": "message",
+                    "value": "<size=20>Scared Tail Expression</size>\nLess tail movement, no reactiveness, faster tail movement, moves tail down"
+                }
+            ],
+            "posX": -1325.6712646484375,
+            "posY": -536.3301391601563,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "85e6ca31-082c-45e9-acb0-b2e840f94314",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "f5a2e657-1544-4d23-90ad-0363cb091617",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "492"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "123"
+                },
+                {
+                    "key": "message",
+                    "value": "<size=20>Scared Sad Expression</size>\nLess tail movement, no reactiveness, slower wagging, move tail down"
+                }
+            ],
+            "posX": -572.3307495117188,
+            "posY": -536.334228515625,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "512505fe-f67f-48dd-b54d-59f7cd8bba26",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "3d6cf400-bfc7-40a7-92ab-69939f5ee168",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "492"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "123"
+                },
+                {
+                    "key": "message",
+                    "value": "<size=20>Happy Sad Expression</size>\nMore tail movement, faster tail wagging"
+                }
+            ],
+            "posX": 210.99655151367188,
+            "posY": -546.3326416015625,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "45ff3cd6-c5bf-44ba-9ede-8482145864c5",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "8cea5614-5b4d-4877-830d-741b67c8eba8",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "492"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "123"
+                },
+                {
+                    "key": "message",
+                    "value": "<size=20>Stop Tail Reactiveness</size>"
+                }
+            ],
+            "posX": -231.9955596923828,
+            "posY": 180.33502197265626,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "e7a7d53a-82f4-4382-bac9-0e6c5d000f3e",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "993377c4-83b9-4f49-befb-4730b4eaec4f",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "492"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "123"
+                },
+                {
+                    "key": "message",
+                    "value": "<size=20>Move Right ear down</size>"
+                }
+            ],
+            "posX": 1408.007568359375,
+            "posY": 428.66302490234377,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "0362b1c4-a7ae-4195-ab58-f9fc302316a1",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "262c9d23-3f48-4fc6-9555-c273039bc186",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "492"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "123"
+                },
+                {
+                    "key": "message",
+                    "value": "<size=20>Move Left ear down</size>"
+                }
+            ],
+            "posX": 1404.670166015625,
+            "posY": -41.328582763671878,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "cf71cd96-e7ab-408d-a873-fccf75ab7217",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "fa2267f0-cbd1-434b-9f89-fd5dbaa7f554",
+            "values": [
+                {
+                    "key": "triggerName",
+                    "value": "Tail Move Less"
+                }
+            ],
+            "posX": 425.6800537109375,
+            "posY": 164.3247833251953,
+            "path": "Nodes/TriggerNode",
+            "ownerBlockId": "c3b50213-06e0-4a80-aafa-b491c353a988",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "40a6ef4d-5eed-40fb-b79d-1dde99251114638844813287781957"
+            ],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": [
+                "f5e0a979-492d-4e4c-930f-25ed36ec979e638844813287781957",
+                "198f5b06-dcbd-4ff5-8ab7-e2e5046804b6638844813287781957",
+                "c5ae2c99-0e77-47e5-9298-736323e9526b638844813287781957",
+                "f9b7ddd7-dd14-4aff-bcc7-4297e7720bfb638844813287781957",
+                "7fbeeca2-44a2-45d8-b574-8979ee2ea0c9638844813287781957",
+                "ea4e0d94-37a7-433b-adc0-fe1fb9068c96638844813287781957"
+            ]
+        },
+        {
+            "id": "a550498e-129b-4236-9ee3-52b72aac78d8",
+            "values": [
+                {
+                    "key": "bsValue",
+                    "value": "80"
+                },
+                {
+                    "key": "bsName",
+                    "value": "TailMoveLess"
+                },
+                {
+                    "key": "isToggle",
+                    "value": "1"
+                },
+                {
+                    "key": "smoothTime",
+                    "value": "1"
+                },
+                {
+                    "key": "const",
+                    "value": "TailMoveMore"
+                }
+            ],
+            "posX": 683.0159301757813,
+            "posY": 166.6548614501953,
+            "path": "Nodes/BlendshapeNode",
+            "ownerBlockId": "c3b50213-06e0-4a80-aafa-b491c353a988",
+            "inputSocketIds": [
+                "7ec08ebe-fcdf-4ac4-bd4a-9ef637a10a69638844813287792437"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 5,
+            "inputValueSocketIds": [
+                "f4651569-0420-43e0-a639-d913f1a5eb97638844813287792437",
+                "87757379-3f0b-483e-9293-f170b1a17a38638844813287792437",
+                "c4d97d24-9f2f-498f-a9ec-ec3942952bf5638844813287792437",
+                "03c791da-0a01-4ab6-9b79-7d796123fa1b638844813287792437",
+                "71a14803-fdb5-4a34-bc25-d34690ed354b638844813287792437"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "547ca83f-4069-43a8-9a11-50cc8780c814",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "492"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "123"
+                },
+                {
+                    "key": "message",
+                    "value": "<size=20>Less (narrow) Tail Movement</size>"
+                }
+            ],
+            "posX": 307.6688232421875,
+            "posY": 435.33544921875,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "c3b50213-06e0-4a80-aafa-b491c353a988",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "5979b219-5cb1-4545-b0c8-f337e01fd8c8",
+            "values": [
+                {
+                    "key": "triggerName",
+                    "value": "Tail Move More"
+                }
+            ],
+            "posX": 415.677978515625,
+            "posY": -304.0074462890625,
+            "path": "Nodes/TriggerNode",
+            "ownerBlockId": "fac03a07-d818-41eb-a5d7-dc177c07a1b4",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "857c35e7-d743-4b63-85d8-f8ac02559061638844813318718621"
+            ],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": [
+                "ab88cdbd-1881-4564-b753-0bdb3aac8f4c638844813318718621",
+                "d4bab0e3-7df2-4f61-95c6-c5c6e2691b6e638844813318718621",
+                "25f1edc5-d064-4b80-9fa3-b527ea5412b4638844813318718621",
+                "1bf8a4b4-e23b-4e16-812d-4de34307e65e638844813318718621",
+                "41bfecac-d89d-4bff-b858-5f55a7faf313638844813318718621",
+                "57e2fc26-97b1-4e64-b353-e321825b82b7638844813318718621"
+            ]
+        },
+        {
+            "id": "7c83d01e-bb34-462b-a956-c233df2e8734",
+            "values": [
+                {
+                    "key": "bsValue",
+                    "value": "100"
+                },
+                {
+                    "key": "bsName",
+                    "value": "TailMoveMore"
+                },
+                {
+                    "key": "isToggle",
+                    "value": "1"
+                },
+                {
+                    "key": "smoothTime",
+                    "value": "1"
+                },
+                {
+                    "key": "const",
+                    "value": "TailMoveLess"
+                }
+            ],
+            "posX": 676.3489990234375,
+            "posY": -303.3448486328125,
+            "path": "Nodes/BlendshapeNode",
+            "ownerBlockId": "fac03a07-d818-41eb-a5d7-dc177c07a1b4",
+            "inputSocketIds": [
+                "c6b3aba0-fdac-4bd5-9b52-fd07830713f6638844813318723855"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 5,
+            "inputValueSocketIds": [
+                "cf09f0b2-f480-4f6c-9bc4-ea59e4e9100a638844813318723855",
+                "3d25a3c1-608d-40da-b4f3-080f71ac8597638844813318723855",
+                "b5990a7f-f417-4f9b-ac10-0cc3d92cdc67638844813318723855",
+                "5184feae-2eb6-4e83-bd1f-a3dd01b4c26f638844813318723855",
+                "2ab35a50-2082-40c4-b0e4-cd6d403d06cb638844813318723855"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "aed0a963-f19f-4a77-bf3e-dd306de7c12c",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "492"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "123"
+                },
+                {
+                    "key": "message",
+                    "value": "<size=20>More (wider) Tail Movement</size>"
+                }
+            ],
+            "posX": 304.33343505859377,
+            "posY": -32.99678039550781,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "fac03a07-d818-41eb-a5d7-dc177c07a1b4",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "cf1dc50c-b5f2-4347-b559-db2bbf777258",
+            "values": [
+                {
+                    "key": "triggerName",
+                    "value": "Tail Wag Less"
+                }
+            ],
+            "posX": 965.677001953125,
+            "posY": 167.65968322753907,
+            "path": "Nodes/TriggerNode",
+            "ownerBlockId": "296b9120-30ec-4b02-945f-5de0abcc88a7",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "873bc9ce-bdbf-4ce8-b6fe-8dde6f9f9f66638844813509690142"
+            ],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": [
+                "43957380-5562-4f12-9281-c8518bd5c3c9638844813509690142",
+                "986720d7-a634-4faa-b3aa-d2aa3fdb0362638844813509690142",
+                "93934bb5-83a0-4911-ac18-799519cdd813638844813509690142",
+                "00447bdc-08ea-4606-a361-06fc87e28d20638844813509690142",
+                "0bf9f2d1-bb2c-4409-92f9-616f893b05cd638844813509690142",
+                "fa97872d-7840-4259-bb78-902ca24d70d3638844813509690142"
+            ]
+        },
+        {
+            "id": "305c699a-8744-45fa-a56b-c57e6fc7e718",
+            "values": [
+                {
+                    "key": "bsValue",
+                    "value": "80"
+                },
+                {
+                    "key": "bsName",
+                    "value": "TailWagLess"
+                },
+                {
+                    "key": "isToggle",
+                    "value": "1"
+                },
+                {
+                    "key": "smoothTime",
+                    "value": "1"
+                },
+                {
+                    "key": "const",
+                    "value": "TailWagMore"
+                }
+            ],
+            "posX": 1223.012939453125,
+            "posY": 169.98976135253907,
+            "path": "Nodes/BlendshapeNode",
+            "ownerBlockId": "296b9120-30ec-4b02-945f-5de0abcc88a7",
+            "inputSocketIds": [
+                "cde2eed6-63fd-4aa1-9dee-49605e839864638844813509700527"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 5,
+            "inputValueSocketIds": [
+                "680228fd-abc3-4a8f-8ca6-8dd3851afd95638844813509700527",
+                "b6edf8fb-fe77-4312-84e2-30fc906ad4fe638844813509700527",
+                "41708048-9a7c-48d8-a1d6-c5626400ebcb638844813509700527",
+                "57d3f1c7-3ed3-4f65-bc8c-810b442a1d6d638844813509700527",
+                "a2084445-1b2b-475b-900b-9082ade4af48638844813509700527"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "ec0f71a9-c697-4a21-960b-151c313629d8",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "492"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "123"
+                },
+                {
+                    "key": "message",
+                    "value": "<size=20>Less (slower) tail wagging</size>"
+                }
+            ],
+            "posX": 847.665771484375,
+            "posY": 438.67034912109377,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "296b9120-30ec-4b02-945f-5de0abcc88a7",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "a0016829-31f4-4082-b57b-d84abce0c773",
+            "values": [
+                {
+                    "key": "triggerName",
+                    "value": "Tail Wag More"
+                }
+            ],
+            "posX": 962.3458251953125,
+            "posY": -305.6753845214844,
+            "path": "Nodes/TriggerNode",
+            "ownerBlockId": "dc1b47f0-5fa9-4763-b823-b4bed6a59ea5",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "2fb5c6a8-af68-444b-a73b-f89529895e6a638844813569876276"
+            ],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": [
+                "acf9cbd9-b17e-4185-8b69-cdecf8b6e9f2638844813569876276",
+                "1cae333f-391c-4aef-bf8c-45ce605473ae638844813569876276",
+                "7f1cf388-8d4c-4bba-b02e-5809ece17a2e638844813569876276",
+                "d8a45c83-5839-4acf-b2e4-7fa6534a8804638844813569876276",
+                "2f2b9784-0c85-4845-b1b1-cecf9f69bf79638844813569876276",
+                "75814f1c-7241-4b1d-8f77-78e53e483897638844813569876276"
+            ]
+        },
+        {
+            "id": "bf70705b-f396-492e-bb16-76cb342a1f2f",
+            "values": [
+                {
+                    "key": "bsValue",
+                    "value": "100"
+                },
+                {
+                    "key": "bsName",
+                    "value": "TailWagMore"
+                },
+                {
+                    "key": "isToggle",
+                    "value": "1"
+                },
+                {
+                    "key": "smoothTime",
+                    "value": "1"
+                },
+                {
+                    "key": "const",
+                    "value": "TailWagLess"
+                }
+            ],
+            "posX": 1219.681640625,
+            "posY": -303.3453063964844,
+            "path": "Nodes/BlendshapeNode",
+            "ownerBlockId": "dc1b47f0-5fa9-4763-b823-b4bed6a59ea5",
+            "inputSocketIds": [
+                "0e240aac-0365-4ec5-be1f-aa840da218cf638844813569886624"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 5,
+            "inputValueSocketIds": [
+                "8737aaf0-89e7-4722-a106-1c03f6dc8d53638844813569886624",
+                "4c034c93-0813-4398-9a7f-bb87ca9ae126638844813569886624",
+                "ab4c7b86-7821-47f8-aafa-c8a49eca90e2638844813569886624",
+                "9ec980b1-f33f-4e26-9f29-635275406107638844813569886624",
+                "c97dcd9b-b2d7-4ff5-a62e-e104f3a46ac4638844813569886624"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "a324c8d4-5bdb-4d7a-9ce2-f86e5074bff4",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "492"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "123"
+                },
+                {
+                    "key": "message",
+                    "value": "<size=20>More (faster) tail wagging</size>"
+                }
+            ],
+            "posX": 844.3345947265625,
+            "posY": -34.66473388671875,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "dc1b47f0-5fa9-4763-b823-b4bed6a59ea5",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        }
+    ],
+    "blocks": [
+        {
+            "id": "59d5c638-8dae-4d68-8d16-c6b6de4feead",
+            "posX": -1349.5,
+            "posY": 464.498046875,
+            "sizeX": 520.9998779296875,
+            "sizeY": 453.26715087890627,
+            "title": "Blendshape Control Examples",
+            "headerColor": 0,
+            "isLocked": false
+        },
+        {
+            "id": "f8473140-0c5c-42cf-9150-8860bdfbab1d",
+            "posX": -812.833984375,
+            "posY": 462.83203125,
+            "sizeX": 520.9998779296875,
+            "sizeY": 453.26715087890627,
+            "title": "Blendshape Control Examples",
+            "headerColor": 0,
+            "isLocked": false
+        },
+        {
+            "id": "8bf45761-bc50-495a-89f1-3fa9f46fa2e5",
+            "posX": -1349.5,
+            "posY": -2.1689453125,
+            "sizeX": 520.9998779296875,
+            "sizeY": 453.26715087890627,
+            "title": "Blendshape Control Examples",
+            "headerColor": 0,
+            "isLocked": false
+        },
+        {
+            "id": "70ca4392-f959-4e2d-8479-48a27fb4a00c",
+            "posX": -811.1669921875,
+            "posY": -2.1689453125,
+            "sizeX": 520.9998779296875,
+            "sizeY": 453.26715087890627,
+            "title": "Blendshape Control Examples",
+            "headerColor": 0,
+            "isLocked": false
+        },
+        {
+            "id": "85e6ca31-082c-45e9-acb0-b2e840f94314",
+            "posX": -1341.1669921875,
+            "posY": -503.8359375,
+            "sizeX": 732.6665649414063,
+            "sizeY": 778.2671508789063,
+            "title": "Blendshape Control Examples",
+            "headerColor": 0,
+            "isLocked": true
+        },
+        {
+            "id": "512505fe-f67f-48dd-b54d-59f7cd8bba26",
+            "posX": -587.833984375,
+            "posY": -503.8349609375,
+            "sizeX": 750.9998779296875,
+            "sizeY": 766.6004028320313,
+            "title": "Blendshape Control Examples",
+            "headerColor": 0,
+            "isLocked": true
+        },
+        {
+            "id": "45ff3cd6-c5bf-44ba-9ede-8482145864c5",
+            "posX": 195.4990234375,
+            "posY": -513.8349609375,
+            "sizeX": 517.6666259765625,
+            "sizeY": 743.2671508789063,
+            "title": "Blendshape Control Examples",
+            "headerColor": 0,
+            "isLocked": true
+        },
+        {
+            "id": "ab9cd362-c1e9-4b83-b664-721ff1fd6deb",
+            "posX": 796.681640625,
+            "posY": 819.11328125,
+            "sizeX": 1135.33251953125,
+            "sizeY": 285.32305908203127,
+            "title": "Block",
+            "headerColor": 0,
+            "isLocked": true
+        },
+        {
+            "id": "e7a7d53a-82f4-4382-bac9-0e6c5d000f3e",
+            "posX": -252.5009765625,
+            "posY": 214.4990234375,
+            "sizeX": 520.9998779296875,
+            "sizeY": 453.26715087890627,
+            "title": "Blendshape Control Examples",
+            "headerColor": 0,
+            "isLocked": false
+        },
+        {
+            "id": "0362b1c4-a7ae-4195-ab58-f9fc302316a1",
+            "posX": 1395.8310546875,
+            "posY": 461.1650390625,
+            "sizeX": 520.9998779296875,
+            "sizeY": 453.26715087890627,
+            "title": "Blendshape Control Examples",
+            "headerColor": 0,
+            "isLocked": false
+        },
+        {
+            "id": "cf71cd96-e7ab-408d-a873-fccf75ab7217",
+            "posX": 1389.166015625,
+            "posY": -8.8349609375,
+            "sizeX": 520.9998779296875,
+            "sizeY": 453.26715087890627,
+            "title": "Blendshape Control Examples",
+            "headerColor": 0,
+            "isLocked": false
+        },
+        {
+            "id": "c3b50213-06e0-4a80-aafa-b491c353a988",
+            "posX": 295.5,
+            "posY": 472.83203125,
+            "sizeX": 520.9998779296875,
+            "sizeY": 453.26715087890627,
+            "title": "Blendshape Control Examples",
+            "headerColor": 0,
+            "isLocked": false
+        },
+        {
+            "id": "fac03a07-d818-41eb-a5d7-dc177c07a1b4",
+            "posX": 288.833984375,
+            "posY": -0.501953125,
+            "sizeX": 520.9998779296875,
+            "sizeY": 453.26715087890627,
+            "title": "Blendshape Control Examples",
+            "headerColor": 0,
+            "isLocked": false
+        },
+        {
+            "id": "296b9120-30ec-4b02-945f-5de0abcc88a7",
+            "posX": 832.166015625,
+            "posY": 471.1640625,
+            "sizeX": 520.9998779296875,
+            "sizeY": 453.26715087890627,
+            "title": "Blendshape Control Examples",
+            "headerColor": 0,
+            "isLocked": false
+        },
+        {
+            "id": "dc1b47f0-5fa9-4763-b823-b4bed6a59ea5",
+            "posX": 828.8330078125,
+            "posY": -2.169921875,
+            "sizeX": 520.9998779296875,
+            "sizeY": 453.26715087890627,
+            "title": "Blendshape Control Examples",
+            "headerColor": 0,
+            "isLocked": false
+        }
+    ],
+    "connections": [
+        {
+            "id": "bc66eeca-d408-4d41-9b36-ad865fed40ba",
+            "outputSocketId": "054b99f7-775a-41bf-b0e6-d28f3d8d66c9638844757815340062",
+            "inputSocketId": "c312ae2a-010e-4e7e-ac11-07f815355de2638844757815350424"
+        },
+        {
+            "id": "a70a22e4-03e3-4b59-8f4a-f14bf370ec55",
+            "outputSocketId": "c69943f4-7776-4851-8a8e-0dcc8be41891638844757815350424",
+            "inputSocketId": "ec80fdbf-643e-4a8d-919c-f50a2f901d0f638844757815345183"
+        },
+        {
+            "id": "5be13838-8dce-4012-a9ee-ac996cfd0b94",
+            "outputSocketId": "8fd9dc3c-3062-49a5-a913-649cc6119cb2638844757815350424",
+            "inputSocketId": "7bf18e4c-17cc-4918-9e7a-b35dc5fb75cd638844757815355507"
+        },
+        {
+            "id": "4c26bc47-ff15-4a69-a768-9e8205d50076",
+            "outputSocketId": "778910ac-632b-441c-8dac-d437a1faf1c5638844757815360757",
+            "inputSocketId": "d271b59f-b2c6-4210-b3c3-a42c7eac1b3d638844757815365899"
+        },
+        {
+            "id": "8f94f01e-ce17-41d1-bbe4-67d5864f3515",
+            "outputSocketId": "778910ac-632b-441c-8dac-d437a1faf1c5638844757815360757",
+            "inputSocketId": "33efbaf0-0f63-43c4-bd03-652aad80e6c8638844757815376288"
+        },
+        {
+            "id": "e7cf53fd-f673-4e9b-9e00-e3c20f921e64",
+            "outputSocketId": "778910ac-632b-441c-8dac-d437a1faf1c5638844757815360757",
+            "inputSocketId": "4472d713-b312-4bb4-8f30-8519d0fa7c42638844757815371153"
+        },
+        {
+            "id": "981bb14d-0413-4c15-8959-26c827757907",
+            "outputSocketId": "778910ac-632b-441c-8dac-d437a1faf1c5638844757815360757",
+            "inputSocketId": "e3f4667e-0a5a-4787-9b19-078331ee44fe638844757815381528"
+        },
+        {
+            "id": "1cbe01a9-6288-4d4a-9b37-129c85aad091",
+            "outputSocketId": "c55d9e24-904c-429d-bcdb-5fe7fd907339638844757815386655",
+            "inputSocketId": "fa5da7dc-02e7-47b8-8253-d0e49dd3f4f2638844757815391871"
+        },
+        {
+            "id": "170a6669-6341-479f-a7b9-61b794e02822",
+            "outputSocketId": "742a5029-4915-4249-8d62-1716fe344e0b638844757815428722",
+            "inputSocketId": "4ddb2d55-3059-4616-b4e9-45dfd1af2dc7638844757815439192"
+        },
+        {
+            "id": "2f5ba2d4-011b-4dfa-a7cf-946b1f50b1a1",
+            "outputSocketId": "742a5029-4915-4249-8d62-1716fe344e0b638844757815428722",
+            "inputSocketId": "2e8efef1-0eaf-4680-85d5-835b0d832249638844757815444402"
+        },
+        {
+            "id": "2c4a098e-1698-47a4-b793-842eeeb74201",
+            "outputSocketId": "c8f2c057-4a61-45cd-a8ef-6bc49c28aaf7638844757815449531",
+            "inputSocketId": "542360e7-0e4f-4ced-8206-d494c3b93dc8638844757815454766"
+        },
+        {
+            "id": "bfb48620-eef5-4654-8d34-fed7cde0de16",
+            "outputSocketId": "c8f2c057-4a61-45cd-a8ef-6bc49c28aaf7638844757815449531",
+            "inputSocketId": "2fae502a-871c-4d34-856d-1dc84ae21bf1638844757815459884"
+        },
+        {
+            "id": "7aec61f0-6d7b-4ffc-82bd-4b25c00414fb",
+            "outputSocketId": "c8f2c057-4a61-45cd-a8ef-6bc49c28aaf7638844757815449531",
+            "inputSocketId": "7bfddfbc-dd76-4017-9ae6-864287491574638844757815465122"
+        },
+        {
+            "id": "5c301509-18d9-40d7-b974-b6134d8a5f57",
+            "outputSocketId": "c8f2c057-4a61-45cd-a8ef-6bc49c28aaf7638844757815449531",
+            "inputSocketId": "5b36fe47-475c-4d91-be88-a306b9c7ec86638844757815475516"
+        },
+        {
+            "id": "ca20e176-110d-409d-a17d-8f24d16554e7",
+            "outputSocketId": "64527794-e00c-477f-81a1-ad58c629deba638844757815485858",
+            "inputSocketId": "3a02b6be-1198-4261-a21f-df55ab554366638844757815490932"
+        },
+        {
+            "id": "1a5b8211-43bf-4fef-b6d7-2ce727617102",
+            "outputSocketId": "2a5709b3-0025-49b4-ac32-82c327bb88c9638844757815496150",
+            "inputSocketId": "bb0ced3a-d0e9-471c-b10d-2be2aa22f3a1638844757815501310"
+        },
+        {
+            "id": "2c69c42e-5633-4350-8331-a2f15e338ac9",
+            "outputSocketId": "0fa33bc3-ec9d-4ad9-99ab-15072f288f13638844757815506567",
+            "inputSocketId": "1b19de29-8df5-4d8e-8f66-fa57feb6073c638844757815511696"
+        },
+        {
+            "id": "1e8007f6-4128-43e4-a4f0-42dca018241a",
+            "outputSocketId": "52765876-0025-4e92-8d80-92b0237b2ecf638844809912778393",
+            "inputSocketId": "3101096c-f18e-4de0-882b-10d282d47217638844809912788738"
+        },
+        {
+            "id": "16566473-e787-4fdf-b7f0-e7845205e00e",
+            "outputSocketId": "615e575a-3ab4-4821-948c-fb762b223d39638844810211519967",
+            "inputSocketId": "90ee8bbc-232b-4194-88e9-467df4779043638844810211525161"
+        },
+        {
+            "id": "d9de6308-ca88-4496-91b8-7cfc46e06d52",
+            "outputSocketId": "96477ad8-7530-401a-ad7e-f8790165bb51638844810486519804",
+            "inputSocketId": "a59db669-1823-4e80-b021-e7cf789e7337638844810486524979"
+        },
+        {
+            "id": "f218e57c-e3a8-4c2a-9fbb-351b6207dcf1",
+            "outputSocketId": "40a6ef4d-5eed-40fb-b79d-1dde99251114638844813287781957",
+            "inputSocketId": "7ec08ebe-fcdf-4ac4-bd4a-9ef637a10a69638844813287792437"
+        },
+        {
+            "id": "285f517e-cc54-4f79-ae02-ab2230b7688d",
+            "outputSocketId": "857c35e7-d743-4b63-85d8-f8ac02559061638844813318718621",
+            "inputSocketId": "c6b3aba0-fdac-4bd5-9b52-fd07830713f6638844813318723855"
+        },
+        {
+            "id": "6ab0c2f2-c69d-48ff-a435-8f194b19f193",
+            "outputSocketId": "873bc9ce-bdbf-4ce8-b6fe-8dde6f9f9f66638844813509690142",
+            "inputSocketId": "cde2eed6-63fd-4aa1-9dee-49605e839864638844813509700527"
+        },
+        {
+            "id": "29a1644f-74d4-4d02-b449-92943e3e255f",
+            "outputSocketId": "2fb5c6a8-af68-444b-a73b-f89529895e6a638844813569876276",
+            "inputSocketId": "0e240aac-0365-4ec5-be1f-aa840da218cf638844813569886624"
+        }
+    ],
+    "valueConnections": [
+        {
+            "id": "3071a9fe-401a-4c56-9376-901746870d9b",
+            "outputSocketId": "1baf6b6c-2fca-4661-9416-7014ce94ace0638844757815350424",
+            "inputSocketId": "4b47b68a-91d4-4aa7-90a0-9f5f83de4a93638844757815350424"
+        }
+    ]
+}
