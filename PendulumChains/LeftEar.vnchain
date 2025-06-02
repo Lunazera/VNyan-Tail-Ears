@@ -31,6 +31,12 @@
             "valueName": "LeftEarWiggle",
             "multiplier": -40.0,
             "isRotation": true
+        },
+        {
+            "isBlendshape": true,
+            "valueName": "EarLeft",
+            "multiplier": 100.0,
+            "isRotation": true
         }
     ],
     "outputs": [
@@ -40,18 +46,8 @@
             "negative": "",
             "param": "",
             "multiplier": 6.0,
-            "gameObject": "",
-            "offset": 0.0,
-            "transform": 0
-        },
-        {
-            "bone": 2,
-            "blendshape": "",
-            "negative": "",
-            "param": "",
-            "multiplier": -5.0,
-            "gameObject": "",
-            "offset": 0.0,
+            "gameObject": "J_Opt_L_CatEar1_01",
+            "offset": -2.0,
             "transform": 0
         },
         {
@@ -60,9 +56,9 @@
             "negative": "",
             "param": "",
             "multiplier": 15.0,
-            "gameObject": "",
-            "offset": 0.0,
-            "transform": 0
+            "gameObject": "J_Opt_L_CatEar1_01",
+            "offset": 15.0,
+            "transform": 2
         }
     ],
     "damping": 0.4000000059604645,

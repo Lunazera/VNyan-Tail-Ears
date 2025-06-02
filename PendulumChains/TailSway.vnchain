@@ -5,19 +5,31 @@
         {
             "isBlendshape": false,
             "valueName": "TailWag",
-            "multiplier": 2.0,
+            "multiplier": 1.5,
             "isRotation": true
         },
         {
             "isBlendshape": false,
             "valueName": "TailHeadY",
-            "multiplier": 100.0,
+            "multiplier": 10.0,
             "isRotation": true
         },
         {
             "isBlendshape": false,
             "valueName": "TailHeadZ",
-            "multiplier": 100.0,
+            "multiplier": 50.0,
+            "isRotation": true
+        },
+        {
+            "isBlendshape": true,
+            "valueName": "TailLeft",
+            "multiplier": 50.0,
+            "isRotation": true
+        },
+        {
+            "isBlendshape": true,
+            "valueName": "TailRight",
+            "multiplier": -50.0,
             "isRotation": true
         }
     ],
@@ -27,20 +39,20 @@
             "blendshape": "",
             "negative": "",
             "param": "",
-            "multiplier": 10.0,
-            "gameObject": "",
+            "multiplier": 18.0,
+            "gameObject": "J_Opt_C_FoxTail1_01",
             "offset": 0.0,
-            "transform": 0
+            "transform": 1
         },
         {
             "bone": 2,
             "blendshape": "",
             "negative": "",
             "param": "",
-            "multiplier": 5.0,
-            "gameObject": "",
+            "multiplier": 14.0,
+            "gameObject": "J_Opt_C_FoxTail1_01",
             "offset": 0.0,
-            "transform": 0
+            "transform": 2
         }
     ],
     "damping": 0.10000000149011612,

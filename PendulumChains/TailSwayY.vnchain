@@ -5,13 +5,25 @@
         {
             "isBlendshape": false,
             "valueName": "TailHeadX",
-            "multiplier": 50.0,
+            "multiplier": 75.0,
             "isRotation": true
         },
         {
             "isBlendshape": false,
             "valueName": "TailHipX",
             "multiplier": -1.0,
+            "isRotation": true
+        },
+        {
+            "isBlendshape": true,
+            "valueName": "TailDown",
+            "multiplier": -100.0,
+            "isRotation": true
+        },
+        {
+            "isBlendshape": true,
+            "valueName": "TailRaise",
+            "multiplier": 50.0,
             "isRotation": true
         }
     ],
@@ -21,9 +33,9 @@
             "blendshape": "",
             "negative": "",
             "param": "",
-            "multiplier": 15.0,
-            "gameObject": "",
-            "offset": 0.0,
+            "multiplier": 5.0,
+            "gameObject": "J_Opt_C_FoxTail1_01",
+            "offset": -5.0,
             "transform": 0
         }
     ],
