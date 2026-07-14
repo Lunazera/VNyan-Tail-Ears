@@ -6,15 +6,14 @@ Adds responsive tail and ear movement to your 3D VTuber model! Works through usi
 - *if you use SnekStudio, I also made a basic setup like this for there! - https://git.gay/lunazera/LZTail-SnekStudio*
 
 ## Tail Graph
-Add dynamic tail movement to your model!
-Requires two accompanying pendulum chains, TailSway and TailSwayY.
+Add dynamic tail movement to your model! Requires two accompanying pendulum chains, TailSway and TailSwayY.
 
 ![TailGif](https://github.com/Lunazera/VNyan-Tail-Ears/blob/main/images/Tail-Example-animated.gif)
 
 ### SETUP
 1. Load this graph, and the two tail pendulum chains. Restart VNyan
 2. In the chains, set the Avatar GameObject's to be your control bone for your tail. This bone must not have any other animators on it (like springbones).
- - note if you need to adjust your model to work with this, check the How To instructions below
+ - *if you need to adjust your model to work with this, check the How-To instructions below *
 3. Change the Transforms to be the correct rotations for your tail bones movement. TailSway should get your tail's horizontal and twist movement, and TailSwayY should get your tail's vertical movement.
 4. Tune controls to the right, and the tail wiggle controls below. If you don't want the extra wiggles, set the setting to 0.
    
