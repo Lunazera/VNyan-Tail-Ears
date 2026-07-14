@@ -1,0 +1,23 @@
+LZ's Ear Wiggle Graph
+by Lunazera
+July 2026 (v2.1)
+
+This is a little extra thing that works with the EarSway Pendulums. It will periodically wiggle a random ear :3 The pendulums will tilt your ears along with your head, raise ears with eyebrow raising, and lower them with your brows down. Also will wiggle if you blink.
+
+# SETUP
+1. Load this graph, and the two ear pendulum chains. Restart VNyan
+2. In the chains, set the Avatar GameObject's to be your control bone for your tail. This bone must not have any other animators on it (like springbones).
+ - note if you need to adjust your model to work with this, check the How To instructions in the tail instructions document.
+
+## Settings
+- Wiggle Min/Max Random Time = Sets the time range between each random ear wiggle
+- Wiggle Amount = How long your ear wiggles will last for (in ms)
+- Wiggle Speed = How fast the wiggle will move your pendulum. Set smaller to make slower movements
+
+## Blendshape Controls
+- EarLeft - Moves left ear down
+- EarRight - Moves right ear down
+
+## Additional Blendshapes
+The pendulums are also already set to respond to your facial expressions. They will move your ears with browouterupleft/right, browdownleft/right, and eyeblinkleft/right
+change these in the pendulum chains to map them differently!

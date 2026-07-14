@@ -1,0 +1,46 @@
+LZ's Tail Graph
+by Lunazera
+July 2026 (v2.1) - https://github.com/Lunazera/VNyan-Tail-Ears
+
+Add dynamic tail movement to your model!
+Requires two accompanying pendulum chains, TailSway and TailSwayY.
+
+# SETUP
+1. Load this graph, and the two tail pendulum chains. Restart VNyan
+2. In the chains, set the Avatar GameObject's to be your control bone for your tail. This bone must not have any other animators on it (like springbones).
+ - note if you need to adjust your model to work with this, check the How To instructions to the left
+3. Change the Transforms to be the correct rotations for your tail bones movement. TailSway should get your tail's horizontal and twist movement, and TailSwayY should get your tail's vertical movement.
+4. Tune controls to the right, and the tail wiggle controls below. If you don't want the extra wiggles, set the setting to 0.
+
+## Extra Cat Mode Graph
+Add this graph to have your tail periodically change positions.
+
+## Extra Controls Graph
+Add this graph for a bunch of extra triggers controlling your tail through blendshapes, and tail expression examples
+
+
+
+# How to set up your Tail Bones
+For this to work, you need at least one bone in your tail that you can use to control it, which <b>cannot have any animator on it.</b> If you are using a VRoid tail for example, this graph won't work and you'll have to make adjustments to your model.
+Note: Make sure you're using VRM0, not VRM1
+
+To do this, you will need either Blender or Unity. Below I'll share some instructions for both, but check the GitHub or the VNyan forum thread for more info:
+- https://github.com/Lunazera/VNyan-Tail-Ears 
+- https://discord.com/channels/714814460010823690/1224432257477906552
+
+## Blender Instructions:
+1. Make sure you have the VRM add-on for blender installed (https://vrm-addon-for-blender.info/en/)
+2. Import your model as a VRM
+3. Click the VRM tab on the right and open up the springbone section
+4. Find the spring bone group that points to your tail (might be called something like FoxTail)
+5. Expand the group, and find the dropdown that lists which bone it applies to
+6. Change the bone to point to the next one down in the chain (ie FoxTail_02)
+7. That's it! Export your model and it should be good!
+
+## Unity Instructions:
+1. Make sure you have uniVRM installed for VRM 0.x https://github.com/vrm-c/UniVRM/releases
+2. Import your model as a VRM 0.x
+3. Find your springbone component on your model that points to your tail (on VRoid's, this is under 'secondary', with the comment 'FoxTail')
+4. Open up the Root Bones to see which bone it points to
+5. Change the root bone to point to the next one down in the chain (ie FoxTail_02)
+6. Export your model as VRM (or as VSFAvatar using the VNyanSDK) and you're done!
