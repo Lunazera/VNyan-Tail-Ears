@@ -70,6 +70,12 @@ Note: Make sure you're using VRM0, not VRM1
 To do this, you will need either Blender or Unity. Below I'll share some instructions for both, but check the GitHub or the VNyan forum thread for more info:
 - https://discord.com/channels/714814460010823690/1224432257477906552
 
+### Examples in VNyan forum
+- https://discord.com/channels/714814460010823690/1224432257477906552/1228013752880992307
+- https://discord.com/channels/714814460010823690/1224432257477906552/1493307590187417721
+- https://discord.com/channels/714814460010823690/1224432257477906552/1280460815031599147
+- https://discord.com/channels/714814460010823690/1224432257477906552/1256535178671689728
+
 ## Blender Instructions:
 1. Make sure you have the VRM add-on for blender installed (https://vrm-addon-for-blender.info/en/)
 2. Import your model as a VRM
