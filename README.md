@@ -1,39 +1,31 @@
 # LZ's Tail & Ears for VNyan
-
 Adds responsive tail and ear movement to your 3D VTuber model! Works through using pendulum chains to control bone rotations.
 
-Ko-fi link: https://ko-fi.com/s/99936effdc
-## Tail
+- Ko-fi link - https://ko-fi.com/s/99936effdc
+- VNyan Discord thread - https://discord.com/channels/714814460010823690/1224432257477906552
+- *if you use SnekStudio, I also made a basic setup like this for there! - https://git.gay/lunazera/LZTail-SnekStudio*
 
-![TailGif](https://github.com/Lunazera/VNyan-Tail-Ears/blob/main/images/Tail-Example-animated.gif)
-
+## Tail Graph
 Add dynamic tail movement to your model!
 Requires two accompanying pendulum chains, TailSway and TailSwayY.
 
-(if you use SnekStudio, I also made a basic setup like this for there! - https://git.gay/lunazera/LZTail-SnekStudio)
-
-### Features
-- Tail will wag back and forth with controls for speed and amount of movement
-- Tail wags faster as you smile
-- Head tracking based movement
-  - Tail moves opposite to how you look, so it will get out of the way of your direction
-  - Tail moves down when you raise your head and when you lean forward (so it wont go into your head)
-  - Tail moves along your head tilting
+![TailGif](https://github.com/Lunazera/VNyan-Tail-Ears/blob/main/images/Tail-Example-animated.gif)
 
 ### SETUP
-1. Load this graph and the pendulum chains.
-2. In the chains, set the Avatar GameObject's to be your control bone for your tail. This bone must not have any other animators on it (like springbones)
-3. Use the settings reference below to make sure the pendulums are imported correctly. In the Output Values, you'll need to change the Offset and Transform. Make sure the Transforms are Rotation Y and Z for the first chain's outputs, and Rotation X for the second chain output.
-4. Change the Offset value for TailSway's first bone output if you want your tail to lean to either the left or right.
-
-### Controls
+1. Load this graph, and the two tail pendulum chains. Restart VNyan
+2. In the chains, set the Avatar GameObject's to be your control bone for your tail. This bone must not have any other animators on it (like springbones).
+ - note if you need to adjust your model to work with this, check the How To instructions below
+3. Change the Transforms to be the correct rotations for your tail bones movement. TailSway should get your tail's horizontal and twist movement, and TailSwayY should get your tail's vertical movement.
+4. Tune controls to the right, and the tail wiggle controls below. If you don't want the extra wiggles, set the setting to 0.
+   
+#### Controls
 - Base Speed = Default wagging speed. Set to 0 if you don't want wagging when idle. 
 - Movement Range = Amount or distance of your tail wagging
 - Max Speed = Maximum speed your wagging increases to when responsive to your expression
 - Acceleration = How fast your tail speeds up to it's max speed
 - Deacceleration = How fast your tail slow down back to it's base speed
 
-### Blendshape Controls
+#### Blendshape Controls
 These are Blendshapes you can use to control your tails position and movement! You could create triggers or websocket buttons to control your tail through these controls, or use them inside your Expressions (ie making your tail lower and stop wagging when sad)
 - TailRaise = Moves tail Up
 - TailDown = Moves tail Down
@@ -45,30 +37,53 @@ These are Blendshapes you can use to control your tails position and movement! Y
 - TailWagLess = Lowers base wagging speed (100 -> 0)
 - TailReactOff = Turns off face-reactive wagging
 
-### Cat Mode
-Maybe instead of wagging, you just want your tail to change it's position randomly a bit more like a cat's tail. You can call the trigger Cat Mode to have your tail periodically change it's tail position :3
+#### Cat Mode
+Maybe instead of wagging, you just want your tail to change it's position randomly a bit more like a cat's tail. Add this graph to have your tail periodically change positions.
 
-## Ears
+
+## Ear Wiggles Graph
+This is a little extra thing that works with the EarSway Pendulums. It will periodically wiggle a random ear :3 The pendulums will tilt your ears along with your head, raise ears with eyebrow raising, and lower them with your brows down. Also will wiggle if you blink. The graph also includes a little extra thing that will periodically wiggle a random ear :3
+
 ![EarGif](https://github.com/Lunazera/VNyan-Tail-Ears/blob/main/images/Ears-Example-animated.gif)
 
-### Features
-- Ears raise up when you raise your eyebrows, and down when you lower them
-- Movement is smoothed (no sharp movements!)
-- Ears tilt to the side when you tilt your head
-- Wiggle when you blink, AND each ear will randomly wiggle over time
-
 ### SETUP
-1. Load the LeftEar and RightEar pendulum chains
-2. Click the search icon for GameObject and find your left ear's control bone. You can use the search menu to try to find it, it'll need to be a bone that doesn't have springbones or dynamic bones applied. For Vroid models, this is usually called something like "CatEar1_01"
-3. Use the settings reference below to make sure the pendulums are imported correctly. In the Output Values, you'll need to change the Offset and Transform.
+1. Load this graph, and the two ear pendulum chains. Restart VNyan
+2. In the chains, set the Avatar GameObject's to be your control bone for your tail. This bone must not have any other animators on it (like springbones). For Vroid models, this is usually called something like "CatEar1_01"
+ - note if you need to adjust your model to work with this, check the How To instructions in the tail instructions document.
 
-The pendulums will tilt your ears along with your head, raise ears with eyebrow raising, and lower them with your brows down. Also will wiggle if you blink. The graph also includes a little extra thing that will periodically wiggle a random ear :3
-
-### Controls
+#### Settings
 - Wiggle Min/Max Random Time = Sets the time range between each random ear wiggle
 - Wiggle Amount = How long your ear wiggles will last for (in ms)
 - Wiggle Speed = How fast the wiggle will move your pendulum. Set smaller to make slower movements
 
-### Blendshape Controls
+#### Blendshape Controls
 - EarLeft - Moves left ear down
-- EarRight - Moves right ear dow
+- EarRight - Moves right ear down
+
+#### Additional Blendshapes
+The pendulums are also already set to respond to your facial expressions. They will move your ears with browouterupleft/right, browdownleft/right, and eyeblinkleft/right
+change these in the pendulum chains to map them differently!
+
+# How to set up your Tail/Ear Bones
+For this to work, you need at least one bone in your tail that you can use to control it, which <b>cannot have any animator on it.</b> If you are using a VRoid tail for example, this graph won't work and you'll have to make adjustments to your model.
+Note: Make sure you're using VRM0, not VRM1
+
+To do this, you will need either Blender or Unity. Below I'll share some instructions for both, but check the GitHub or the VNyan forum thread for more info:
+- https://discord.com/channels/714814460010823690/1224432257477906552
+
+## Blender Instructions:
+1. Make sure you have the VRM add-on for blender installed (https://vrm-addon-for-blender.info/en/)
+2. Import your model as a VRM
+3. Click the VRM tab on the right and open up the springbone section
+4. Find the spring bone group that points to your tail (might be called something like FoxTail)
+5. Expand the group, and find the dropdown that lists which bone it applies to
+6. Change the bone to point to the next one down in the chain (ie FoxTail_02)
+7. That's it! Export your model and it should be good!
+
+## Unity Instructions:
+1. Make sure you have uniVRM installed for VRM 0.x https://github.com/vrm-c/UniVRM/releases
+2. Import your model as a VRM 0.x
+3. Find your springbone component on your model that points to your tail (on VRoid's, this is under 'secondary', with the comment 'FoxTail')
+4. Open up the Root Bones to see which bone it points to
+5. Change the root bone to point to the next one down in the chain (ie FoxTail_02)
+6. Export your model as VRM (or as VSFAvatar using the VNyanSDK) and you're done!
