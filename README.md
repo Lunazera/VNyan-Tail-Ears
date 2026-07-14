@@ -10,6 +10,8 @@ Ko-fi link: https://ko-fi.com/s/99936effdc
 Add dynamic tail movement to your model!
 Requires two accompanying pendulum chains, TailSway and TailSwayY.
 
+(if you use SnekStudio, I also made a basic setup like this for there! - https://git.gay/lunazera/LZTail-SnekStudio)
+
 ### Features
 - Tail will wag back and forth with controls for speed and amount of movement
 - Tail wags faster as you smile
