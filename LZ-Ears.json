@@ -11,11 +11,11 @@
                 },
                 {
                     "key": "sizeY",
-                    "value": "439"
+                    "value": "447"
                 },
                 {
                     "key": "message",
-                    "value": "<size=30>LZ's Ear Wiggle Graph</size></size> \n\n<color=#ca6fde>by Lunazera</color>\nJune 2025 (v2.0)\n\n▼——————————————— ▼\n\nThis is a little extra thing that works with the EarSway Pendulums. It will periodically wiggle a random ear :3 The pendulums will tilt your ears along with your head, raise ears with eyebrow raising, and lower them with your brows down. Also will wiggle if you blink.\n\nTo set up the EarSway Pendulum chains, just set the gameobject to your control bones for your ears.\n\n<b><size=20>Main Controls:</size></b>\n• Wiggle Min/Max Random Time = Sets the time range between each random ear wiggle\n• Wiggle Amount = How long your ear wiggles will last for (in ms)\n• Wiggle Speed = How fast the wiggle will move your pendulum. Set smaller to make slower movements\n\n<b><size=20><color=#008B8B>Blendshape Controls</b></size></color>\n• EarLeft - Moves left ear down\n• EarRight - Moves right ear down"
+                    "value": "<size=30>LZ's Ear Wiggle Graph</size></size> \n\n<color=#ca6fde>by Lunazera</color>\nJuly 2026 (v2.1)\n\n▼——————————————— ▼\n\nThis is a little extra thing that works with the EarSway Pendulums. It will periodically wiggle a random ear :3 The pendulums will tilt your ears along with your head, raise ears with eyebrow raising, and lower them with your brows down. Also will wiggle if you blink.\n\nTo set up the EarSway Pendulum chains, just set the gameobject to your control bones for your ears.\n(if you have the tail graph, you could also change the \"EarWiggleTimer\" name to \"TailTimer\" to save on processing a bit)\n\n<b><size=20>Main Controls:</size></b>\n• Wiggle Min/Max Random Time = Sets the time range between each random ear wiggle\n• Wiggle Amount = How long your ear wiggles will last for (in ms)\n• Wiggle Speed = How fast the wiggle will move your pendulum. Set smaller to make slower movements\n\n<b><size=20><color=#008B8B>Blendshape Controls</b></size></color>\n• EarLeft - Moves left ear down\n• EarRight - Moves right ear down"
                 }
             ],
             "posX": -846.994140625,
@@ -103,19 +103,19 @@
             "values": [
                 {
                     "key": "sizeX",
-                    "value": "224"
+                    "value": "303"
                 },
                 {
                     "key": "sizeY",
-                    "value": "118"
+                    "value": "121"
                 },
                 {
                     "key": "message",
-                    "value": "<size=30>Wiggle Min Rand Time -></size>"
+                    "value": "<size=30>Wiggle Min Time -></size>\nminimum time between ear wiggles"
                 }
             ],
-            "posX": -112.64691162109375,
-            "posY": 450.4884033203125,
+            "posX": -117.31167602539063,
+            "posY": 465.15460205078127,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "d6f92fa8-2e5d-43ee-9165-496d906545c7",
             "inputSocketIds": [],
@@ -129,19 +129,19 @@
             "values": [
                 {
                     "key": "sizeX",
-                    "value": "220"
+                    "value": "305"
                 },
                 {
                     "key": "sizeY",
-                    "value": "117"
+                    "value": "112"
                 },
                 {
                     "key": "message",
-                    "value": "<size=30>Wiggle Max Rand Time -></size>"
+                    "value": "<size=30>Wiggle Max Time -></size>\nmaximum time between ear wiggles"
                 }
             ],
-            "posX": -115.98028564453125,
-            "posY": 322.488037109375,
+            "posX": -118.64505004882813,
+            "posY": 323.15423583984377,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "d6f92fa8-2e5d-43ee-9165-496d906545c7",
             "inputSocketIds": [],
@@ -158,8 +158,8 @@
                     "value": "8000"
                 }
             ],
-            "posX": 217.36053466796876,
-            "posY": 402.484375,
+            "posX": 284.6956787109375,
+            "posY": 402.8172607421875,
             "path": "Nodes/TextToNumberNode",
             "ownerBlockId": "d6f92fa8-2e5d-43ee-9165-496d906545c7",
             "inputSocketIds": [],
@@ -180,8 +180,8 @@
                     "value": "20000"
                 }
             ],
-            "posX": 216.36077880859376,
-            "posY": 270.484375,
+            "posX": 282.6959228515625,
+            "posY": 267.8172607421875,
             "path": "Nodes/TextToNumberNode",
             "ownerBlockId": "d6f92fa8-2e5d-43ee-9165-496d906545c7",
             "inputSocketIds": [],
@@ -199,19 +199,19 @@
             "values": [
                 {
                     "key": "sizeX",
-                    "value": "213"
+                    "value": "281"
                 },
                 {
                     "key": "sizeY",
-                    "value": "113"
+                    "value": "108"
                 },
                 {
                     "key": "message",
-                    "value": "<size=30>Wiggle Amount -></size>"
+                    "value": "<size=30>Wiggle Amount -></size>\nhow much the ears will rotate"
                 }
             ],
-            "posX": -112.31365966796875,
-            "posY": 198.4881591796875,
+            "posX": -94.97842407226563,
+            "posY": 188.15435791015626,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "d6f92fa8-2e5d-43ee-9165-496d906545c7",
             "inputSocketIds": [],
@@ -228,8 +228,8 @@
                     "value": "1000"
                 }
             ],
-            "posX": 215.69403076171876,
-            "posY": 139.8175048828125,
+            "posX": 284.0291748046875,
+            "posY": 135.15037536621095,
             "path": "Nodes/TextToNumberNode",
             "ownerBlockId": "d6f92fa8-2e5d-43ee-9165-496d906545c7",
             "inputSocketIds": [],
@@ -247,19 +247,19 @@
             "values": [
                 {
                     "key": "sizeX",
-                    "value": "212"
+                    "value": "280"
                 },
                 {
                     "key": "sizeY",
-                    "value": "131"
+                    "value": "122"
                 },
                 {
                     "key": "message",
-                    "value": "<size=30>Wiggle Speed -></size>\ncareful not to set too high!"
+                    "value": "<size=30>Wiggle Speed -></size>\nhow fast ears will wiggle (don't set too high!)"
                 }
             ],
-            "posX": -113.98040771484375,
-            "posY": 76.488037109375,
+            "posX": -94.64517211914063,
+            "posY": 68.15423583984375,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "d6f92fa8-2e5d-43ee-9165-496d906545c7",
             "inputSocketIds": [],
@@ -276,8 +276,8 @@
                     "value": ".9"
                 }
             ],
-            "posX": 214.01971435546876,
-            "posY": 3.82147216796875,
+            "posX": 281.688232421875,
+            "posY": 1.4876708984375,
             "path": "Nodes/TextToDecimalNode",
             "ownerBlockId": "d6f92fa8-2e5d-43ee-9165-496d906545c7",
             "inputSocketIds": [],
@@ -295,19 +295,19 @@
             "values": [
                 {
                     "key": "sizeX",
-                    "value": "483"
+                    "value": "480"
                 },
                 {
                     "key": "sizeY",
-                    "value": "153"
+                    "value": "164"
                 },
                 {
                     "key": "message",
-                    "value": "<size=30>Additional Blendshapes</size>\nThe pendulums are also already set to respond to your facial expressions. They will move your ears with browouterupleft/right, browdownleft/right, and eyeblinkleft/right"
+                    "value": "<size=30>Additional Blendshapes</size>\nThe pendulums are also already set to respond to your facial expressions. They will move your ears with <b>browouterupleft/right</b>, <b>browdownleft/right</b>, and <b>eyeblinkleft/right</b>\n\nchange these in the pendulum chains to map them differently!"
                 }
             ],
-            "posX": -392.32257080078127,
-            "posY": -78.509521484375,
+            "posX": -120.65594482421875,
+            "posY": -95.17619323730469,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "d6f92fa8-2e5d-43ee-9165-496d906545c7",
             "inputSocketIds": [],
@@ -324,8 +324,8 @@
                     "value": "WiggleEar"
                 }
             ],
-            "posX": 1911.3363037109375,
-            "posY": 253.15655517578126,
+            "posX": 711.3405151367188,
+            "posY": 276.4883728027344,
             "path": "Nodes/TriggerNode",
             "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
             "inputSocketIds": [],
@@ -355,8 +355,8 @@
                     "value": "{WiggleTimer}"
                 }
             ],
-            "posX": 2125.001953125,
-            "posY": -405.50775146484377,
+            "posX": 1161.6727294921875,
+            "posY": -235.50926208496095,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
             "inputSocketIds": [
@@ -382,8 +382,8 @@
                     "value": "[Wiggle]"
                 }
             ],
-            "posX": 2628.001953125,
-            "posY": -665.5101318359375,
+            "posX": 1873.0062255859375,
+            "posY": -490.5116271972656,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
             "inputSocketIds": [
@@ -409,8 +409,8 @@
                     "value": "[Wiggle]"
                 }
             ],
-            "posX": 2628.6689453125,
-            "posY": -828.1766357421875,
+            "posX": 1875.3397216796875,
+            "posY": -644.8448486328125,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
             "inputSocketIds": [
@@ -436,8 +436,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 1680.6668701171875,
-            "posY": -683.8431396484375,
+            "posX": 937.3375244140625,
+            "posY": -467.1780090332031,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
             "inputSocketIds": [
@@ -467,8 +467,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 1934.3348388671875,
-            "posY": -652.1766357421875,
+            "posX": 1184.3387451171875,
+            "posY": -475.5115051269531,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
             "inputSocketIds": [
@@ -494,8 +494,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 1936.0008544921875,
-            "posY": -814.5106201171875,
+            "posX": 1187.6715087890625,
+            "posY": -632.845458984375,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
             "inputSocketIds": [
@@ -506,30 +506,6 @@
             "inputValueSocketIds": [
                 "1c4e1b03-101a-4804-99d9-7f6bdd215d26638844793772568962",
                 "2084e761-48c5-4ea8-bca9-0b373fe7a338638844793772568962"
-            ],
-            "outputValueSocketIds": []
-        },
-        {
-            "id": "c76eb960-d5ea-47ff-90f8-9792d25abe6c",
-            "values": [
-                {
-                    "key": "wait",
-                    "value": "[RandomWiggleTime]"
-                }
-            ],
-            "posX": 2331.33251953125,
-            "posY": -101.50567626953125,
-            "path": "Nodes/WaitNode",
-            "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
-            "inputSocketIds": [
-                "3690d3b5-1c52-4112-99a9-9cf26c09c5bc638844793772574411"
-            ],
-            "outputSocketIds": [
-                "d60f2269-05e2-4abb-a2ad-94fe45bb598f638844793772574411"
-            ],
-            "headerColor": 7,
-            "inputValueSocketIds": [
-                "def7ccf4-deaa-4e92-8778-402fe013c32b638844793772574411"
             ],
             "outputValueSocketIds": []
         },
@@ -545,8 +521,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 2587.99951171875,
-            "posY": -138.50579833984376,
+            "posX": 1848.0040283203125,
+            "posY": -10.174018859863282,
             "path": "Nodes/CallTriggerNode",
             "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
             "inputSocketIds": [
@@ -568,62 +544,13 @@
         {
             "id": "167f3cb3-f008-46ec-b647-7db90c46d9ad",
             "values": [],
-            "posX": 1891.9989013671875,
-            "posY": 423.15484619140627,
+            "posX": 724.0030517578125,
+            "posY": 105.48672485351563,
             "path": "Nodes/AppStartNode",
             "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
             "inputSocketIds": [],
             "outputSocketIds": [
                 "6935072e-0db2-48f7-9f18-7fe001534125638844793772584760"
-            ],
-            "headerColor": 7,
-            "inputValueSocketIds": [],
-            "outputValueSocketIds": []
-        },
-        {
-            "id": "260ea6c8-4aaf-4eb2-b2e8-aa4a5bcc33fe",
-            "values": [
-                {
-                    "key": "opts",
-                    "value": "3"
-                }
-            ],
-            "posX": 1782.5018310546875,
-            "posY": -335.49798583984377,
-            "path": "Nodes/OrderedFlexNode",
-            "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
-            "inputSocketIds": [
-                "88c52d92-75b3-461d-af9b-44e9029e910c638844793772584760"
-            ],
-            "outputSocketIds": [
-                "ffa37313-9bf2-46ac-a8eb-4e331ae058d8638844793772584760",
-                "1758bb22-3c31-473d-a406-28001a129206638844793772584760",
-                ""
-            ],
-            "headerColor": 7,
-            "inputValueSocketIds": [],
-            "outputValueSocketIds": []
-        },
-        {
-            "id": "0be9ceec-dcbc-47ce-a2f4-92990f247bdb",
-            "values": [
-                {
-                    "key": "opts",
-                    "value": "4"
-                }
-            ],
-            "posX": 2032.1668701171875,
-            "posY": 438.16925048828127,
-            "path": "Nodes/OrderedFlexNode",
-            "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
-            "inputSocketIds": [
-                "85b05f85-550d-4051-884e-f99deb0557e7638844793772589863"
-            ],
-            "outputSocketIds": [
-                "b5507fb0-0587-4a48-a101-e4921db32bc2638844793772589863",
-                "2ef9cc5c-5719-4c83-b2fc-cb645b7c0d16638844793772589863",
-                "",
-                ""
             ],
             "headerColor": 7,
             "inputValueSocketIds": [],
@@ -637,8 +564,8 @@
                     "value": "2"
                 }
             ],
-            "posX": 2232.833984375,
-            "posY": 448.83575439453127,
+            "posX": 1084.5050048828125,
+            "posY": 297.1676330566406,
             "path": "Nodes/RandomFlexNode",
             "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
             "inputSocketIds": [
@@ -664,8 +591,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 2607.0029296875,
-            "posY": 273.49163818359377,
+            "posX": 1328.6737060546875,
+            "posY": 218.49012756347657,
             "path": "Nodes/SetTextParamNode",
             "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
             "inputSocketIds": [
@@ -691,8 +618,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 2608.66943359375,
-            "posY": 99.82489013671875,
+            "posX": 1552.0067138671875,
+            "posY": 216.4900665283203,
             "path": "Nodes/SetTextParamNode",
             "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
             "inputSocketIds": [
@@ -709,8 +636,8 @@
         {
             "id": "413d7182-4773-465c-8131-c1c66670162c",
             "values": [],
-            "posX": 2392.33642578125,
-            "posY": -648.5072021484375,
+            "posX": 1625.674072265625,
+            "posY": -471.8420104980469,
             "path": "Nodes/FilterBoolNode",
             "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
             "inputSocketIds": [
@@ -734,8 +661,8 @@
                     "value": "<EarWiggleRandomizer>"
                 }
             ],
-            "posX": 2160.001953125,
-            "posY": -653.8406982421875,
+            "posX": 1400.0059814453125,
+            "posY": -503.8422546386719,
             "path": "Nodes/TextToBoolNode",
             "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
             "inputSocketIds": [],
@@ -756,8 +683,8 @@
                     "value": "WiggleFactor"
                 }
             ],
-            "posX": 2161.0146484375,
-            "posY": -227.84027099609376,
+            "posX": 1387.6854248046875,
+            "posY": -234.5084686279297,
             "path": "Nodes/ParamToDecimalNode",
             "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
             "inputSocketIds": [],
@@ -778,8 +705,8 @@
                     "value": "2"
                 }
             ],
-            "posX": 2368.01513671875,
-            "posY": -410.50726318359377,
+            "posX": 1634.685791015625,
+            "posY": -275.5089111328125,
             "path": "Nodes/DecimalOperationNode",
             "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
             "inputSocketIds": [],
@@ -805,8 +732,8 @@
                     "value": ""
                 }
             ],
-            "posX": 2360.00634765625,
-            "posY": 246.82720947265626,
+            "posX": 1853.3438720703125,
+            "posY": 216.82569885253907,
             "path": "Nodes/SetTimerNode",
             "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
             "inputSocketIds": [
@@ -825,11 +752,11 @@
             "values": [
                 {
                     "key": "timerName",
-                    "value": "TailTimer"
+                    "value": "EarWiggleTimer"
                 }
             ],
-            "posX": 1661.3367919921875,
-            "posY": -317.83929443359377,
+            "posX": 679.3408203125,
+            "posY": -168.84078979492188,
             "path": "Nodes/TimerNode",
             "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
             "inputSocketIds": [],
@@ -856,8 +783,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 2595.3388671875,
-            "posY": -414.50628662109377,
+            "posX": 1877.0096435546875,
+            "posY": -282.84112548828127,
             "path": "Nodes/ParamMathNode",
             "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
             "inputSocketIds": [
@@ -872,7 +799,57 @@
             "outputValueSocketIds": []
         },
         {
-            "id": "8dcd62ba-176b-47ea-bce9-d55861e5e654",
+            "id": "09b8cd72-5f46-4170-8ba4-1d42b8817ea7",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "458"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "110"
+                },
+                {
+                    "key": "message",
+                    "value": "<size=30>Ear Wiggles</size>\nMain graph block for the ear wiggles."
+                }
+            ],
+            "posX": 842.0087890625,
+            "posY": 444.82513427734377,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 0,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "e2074a52-278d-4389-bcd4-4e790adb0c63",
+            "values": [
+                {
+                    "key": "wait",
+                    "value": "[RandomWiggleTime]"
+                }
+            ],
+            "posX": 1580.6710205078125,
+            "posY": 82.9991683959961,
+            "path": "Nodes/WaitNode",
+            "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
+            "inputSocketIds": [
+                "2207ed8c-9c58-4264-84fe-4ee23f9cda17638844838977337508"
+            ],
+            "outputSocketIds": [
+                "aefce5d1-7240-44d3-8695-ce1d2d38beb6638844838977337508"
+            ],
+            "headerColor": 7,
+            "inputValueSocketIds": [
+                "88ae0bae-eb1a-4f32-bb41-0e7501844c53638844838977337508"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "f376f9ec-eff1-40ef-9fe4-45f99613882d",
             "values": [
                 {
                     "key": "paramName",
@@ -887,45 +864,121 @@
                     "value": ""
                 }
             ],
-            "posX": 2341.00537109375,
-            "posY": 53.15997314453125,
+            "posX": 1339.0015869140625,
+            "posY": 36.99805450439453,
             "path": "Nodes/RandomParamNode",
             "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
             "inputSocketIds": [
-                "f0a49ab3-a7a6-489c-b6a2-c624f94e2cd0638844793772631090"
+                "2f31433c-61c2-4fde-ac82-86f9e452026f638844839238895468"
             ],
             "outputSocketIds": [],
             "headerColor": 7,
             "inputValueSocketIds": [
-                "c533d919-1dbd-442b-86dc-5c9d7764321f638844793772631090",
-                "22c492b1-61e8-4644-8646-3f021b4776c1638844793772631090",
-                "3a419fc8-bcd7-4f35-9a4c-7c6a882804d9638844793772631090"
+                "146dff10-bbf2-4774-a99a-aa66a7bf9f5c638844839238895468",
+                "4c60eed4-179d-4023-91a0-3cd8380e42d3638844839238895468",
+                "41aec2da-7f55-4848-809b-3f6a35c87a83638844839238895468"
             ],
             "outputValueSocketIds": []
         },
         {
-            "id": "09b8cd72-5f46-4170-8ba4-1d42b8817ea7",
+            "id": "17a3c4f1-84bc-4c56-aeea-72603edf3761",
+            "values": [
+                {
+                    "key": "opts",
+                    "value": "3"
+                }
+            ],
+            "posX": 836.673583984375,
+            "posY": -167.33541870117188,
+            "path": "Nodes/OrderedFlexNode",
+            "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
+            "inputSocketIds": [
+                "3b7be85c-c084-4d18-b3c9-a1bd61d7d2ce638844840827949157"
+            ],
+            "outputSocketIds": [
+                "3bc8dc2c-14f0-47c3-b651-0aa92e742ca8638844840827949157",
+                "06ccdfe8-5c56-4c97-a155-07b0380562a0638844840827949157",
+                "20524f7a-bd04-4fe6-901b-7ccaa091e2af638844841030558698"
+            ],
+            "headerColor": 7,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "21fcc384-4f22-47db-9677-1abcd51b6de6",
+            "values": [
+                {
+                    "key": "opts",
+                    "value": "4"
+                }
+            ],
+            "posX": 879.3382568359375,
+            "posY": 267.99859619140627,
+            "path": "Nodes/OrderedFlexNode",
+            "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
+            "inputSocketIds": [
+                "63b857f4-f70b-4e7b-8fee-08d3073f7657638844842378227521"
+            ],
+            "outputSocketIds": [
+                "27800e9e-ca7a-41ce-aa94-93f7434b1e34638844842378227521",
+                "f64b2dc5-be31-4076-9eb5-cfb90b611b69638844842378227521",
+                "204c5c8c-d88f-4235-84db-22dbfc686ed3638844842395150255",
+                "d3aef7ed-2ba0-47c5-838a-a93df3f5bbe6638844842396516075"
+            ],
+            "headerColor": 6,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "ebff587f-1223-4d54-b074-330cd3d93c85",
+            "values": [
+                {
+                    "key": "timerName",
+                    "value": "EarWiggleTimer"
+                },
+                {
+                    "key": "seconds",
+                    "value": "10"
+                }
+            ],
+            "posX": 1011.668212890625,
+            "posY": -34.00093078613281,
+            "path": "Nodes/SetTimerNode",
+            "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
+            "inputSocketIds": [
+                "40733bbb-79be-4d19-b50b-22adcb9c2b56639196446141588177"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 7,
+            "inputValueSocketIds": [
+                "9c4a23cb-318f-4b29-9732-6f55ad40b637639196446141588177",
+                "c3a51880-86b2-4e94-969e-875b205bc09b639196446141588177"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "40328af8-addb-47da-bef1-580e4dea47f8",
             "values": [
                 {
                     "key": "sizeX",
-                    "value": "451"
+                    "value": "298"
                 },
                 {
                     "key": "sizeY",
-                    "value": "311"
+                    "value": "157"
                 },
                 {
                     "key": "message",
-                    "value": "<size=30>Ear Wiggles</size>\nMain graph block for the ear wiggles.\n\nThis requires TailTimer to be running"
+                    "value": "if you have the tail graph, you could also change the \"EarWiggleTimer\" name to \"TailTimer\" to save on processing a bit\n\nJust change the Timer Name in the Timer node, and delete the Start Timer node."
                 }
             ],
-            "posX": 1310.0047607421875,
-            "posY": 465.49334716796877,
+            "posX": 594.333251953125,
+            "posY": 41.99871826171875,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
             "inputSocketIds": [],
             "outputSocketIds": [],
-            "headerColor": 0,
+            "headerColor": 7,
             "inputValueSocketIds": [],
             "outputValueSocketIds": []
         }
@@ -935,18 +988,18 @@
             "id": "d6f92fa8-2e5d-43ee-9165-496d906545c7",
             "posX": -850.322265625,
             "posY": 497.5087890625,
-            "sizeX": 1208.332763671875,
-            "sizeY": 750.266357421875,
+            "sizeX": 1237.332763671875,
+            "sizeY": 785.9330444335938,
             "title": "Ear Wiggles Controls",
             "headerColor": 6,
             "isLocked": false
         },
         {
             "id": "1ff07ef0-cbee-4879-8f16-cb2a33a4438e",
-            "posX": 1298.677734375,
-            "posY": 510.6591796875,
-            "sizeX": 1448.333251953125,
-            "sizeY": 1440.2667236328125,
+            "posX": 573.677734375,
+            "posY": 487.3251953125,
+            "sizeX": 1419.999755859375,
+            "sizeY": 1228.60009765625,
             "title": "Ear Wiggles ",
             "headerColor": 0,
             "isLocked": true
@@ -962,26 +1015,6 @@
             "id": "5f7ddfb0-7e67-439a-9cb8-2bab1a4aed7a",
             "outputSocketId": "fbf94133-15cd-4e97-ad77-c777928cf179638844793772563837",
             "inputSocketId": "33bcebc4-340e-4e24-be8e-3becfd3953e2638844793772568962"
-        },
-        {
-            "id": "98c351a8-398c-43e2-8b06-c43a91eedd5e",
-            "outputSocketId": "ffa37313-9bf2-46ac-a8eb-4e331ae058d8638844793772584760",
-            "inputSocketId": "bd7dfc62-4a1c-460e-99a3-753e72ddedf4638844793772553492"
-        },
-        {
-            "id": "d6c71057-5448-4d0b-a4a3-9e966257dce8",
-            "outputSocketId": "",
-            "inputSocketId": "92ea46a3-0092-4e41-bb0f-6eacfca8bf1b638844793772563837"
-        },
-        {
-            "id": "de8ddda2-d101-4417-98c6-9ac3aa402091",
-            "outputSocketId": "6935072e-0db2-48f7-9f18-7fe001534125638844793772584760",
-            "inputSocketId": "85b05f85-550d-4051-884e-f99deb0557e7638844793772589863"
-        },
-        {
-            "id": "b33d36f6-25db-45ee-a73a-6db442941052",
-            "outputSocketId": "b5507fb0-0587-4a48-a101-e4921db32bc2638844793772589863",
-            "inputSocketId": "08d87579-4279-403d-a0ed-352f6875656c638844793772595102"
         },
         {
             "id": "48077315-9803-4e76-ae7f-b8f5858ec4af",
@@ -1009,39 +1042,69 @@
             "inputSocketId": "5773a353-3a4b-4b14-aa0e-4883d3437876638844793772605353"
         },
         {
-            "id": "2bb804b9-31a6-4584-be18-6e0ed6b4e7a0",
-            "outputSocketId": "90223e3d-54d1-48bb-8b19-e8934f1e4def638844793772548287",
-            "inputSocketId": "85b05f85-550d-4051-884e-f99deb0557e7638844793772589863"
+            "id": "5216f993-eee6-4268-abc6-bfc3b5e564eb",
+            "outputSocketId": "aefce5d1-7240-44d3-8695-ce1d2d38beb6638844838977337508",
+            "inputSocketId": "c2d1c4fc-5b40-47c9-a576-1348d6a645d1638844793772579529"
         },
         {
-            "id": "166e1c02-adda-42c3-889b-ccf1fc5db9da",
-            "outputSocketId": "",
-            "inputSocketId": "3690d3b5-1c52-4112-99a9-9cf26c09c5bc638844793772574411"
-        },
-        {
-            "id": "3eb89096-8307-41a7-a8f3-6e224bb0a197",
-            "outputSocketId": "2ef9cc5c-5719-4c83-b2fc-cb645b7c0d16638844793772589863",
-            "inputSocketId": "f7dc3cb2-3003-47b5-a3b3-7d9771dd6020638844793772620778"
-        },
-        {
-            "id": "964f6027-f49f-448e-ad71-bfbbd2b41d5e",
+            "id": "b8b0e9f8-e186-40c6-8850-f9fbc8744e77",
             "outputSocketId": "fb7ba293-2e88-4a14-8385-d61462afc71b638844793772620778",
-            "inputSocketId": "88c52d92-75b3-461d-af9b-44e9029e910c638844793772584760"
+            "inputSocketId": "3b7be85c-c084-4d18-b3c9-a1bd61d7d2ce638844840827949157"
         },
         {
-            "id": "90ed465a-f283-4861-b327-52942c4d0709",
-            "outputSocketId": "1758bb22-3c31-473d-a406-28001a129206638844793772584760",
+            "id": "f392602b-e80d-4e52-8922-8821c6463bf3",
+            "outputSocketId": "3bc8dc2c-14f0-47c3-b651-0aa92e742ca8638844840827949157",
+            "inputSocketId": "bd7dfc62-4a1c-460e-99a3-753e72ddedf4638844793772553492"
+        },
+        {
+            "id": "8822f15a-7ef2-4ffa-899d-41c084df66f2",
+            "outputSocketId": "06ccdfe8-5c56-4c97-a155-07b0380562a0638844840827949157",
             "inputSocketId": "e473ebf2-4ed6-43bc-a148-bc044302b5ed638844793772626003"
         },
         {
-            "id": "b2a3ed6f-04a4-4e21-bf23-e0f3dd01ae0a",
-            "outputSocketId": "",
-            "inputSocketId": "f0a49ab3-a7a6-489c-b6a2-c624f94e2cd0638844793772631090"
+            "id": "a67382bb-4c90-4d0e-a774-a5107bef09a5",
+            "outputSocketId": "20524f7a-bd04-4fe6-901b-7ccaa091e2af638844841030558698",
+            "inputSocketId": "92ea46a3-0092-4e41-bb0f-6eacfca8bf1b638844793772563837"
         },
         {
-            "id": "04c4b273-5e0d-4d88-b0c9-94585de6f8ea",
-            "outputSocketId": "d60f2269-05e2-4abb-a2ad-94fe45bb598f638844793772574411",
-            "inputSocketId": "c2d1c4fc-5b40-47c9-a576-1348d6a645d1638844793772579529"
+            "id": "b1e7af9c-230e-4fc9-9526-16eca1e403b8",
+            "outputSocketId": "6935072e-0db2-48f7-9f18-7fe001534125638844793772584760",
+            "inputSocketId": "63b857f4-f70b-4e7b-8fee-08d3073f7657638844842378227521"
+        },
+        {
+            "id": "01e7f971-5acc-4aaf-8408-ffa75a71faef",
+            "outputSocketId": "90223e3d-54d1-48bb-8b19-e8934f1e4def638844793772548287",
+            "inputSocketId": "63b857f4-f70b-4e7b-8fee-08d3073f7657638844842378227521"
+        },
+        {
+            "id": "aa0d8e8a-98b6-430c-9727-c5a6b589d8a7",
+            "outputSocketId": "27800e9e-ca7a-41ce-aa94-93f7434b1e34638844842378227521",
+            "inputSocketId": "08d87579-4279-403d-a0ed-352f6875656c638844793772595102"
+        },
+        {
+            "id": "57a63f68-c2d0-4ffb-80cf-56d63f463afa",
+            "outputSocketId": "f64b2dc5-be31-4076-9eb5-cfb90b611b69638844842378227521",
+            "inputSocketId": "f7dc3cb2-3003-47b5-a3b3-7d9771dd6020638844793772620778"
+        },
+        {
+            "id": "2c06e1d4-ecf2-4269-936f-287c204407e4",
+            "outputSocketId": "204c5c8c-d88f-4235-84db-22dbfc686ed3638844842395150255",
+            "inputSocketId": "2f31433c-61c2-4fde-ac82-86f9e452026f638844839238895468"
+        },
+        {
+            "id": "bf72f059-6e1c-4fe4-8db2-c1cb8759c0d3",
+            "outputSocketId": "d3aef7ed-2ba0-47c5-838a-a93df3f5bbe6638844842396516075",
+            "inputSocketId": "2207ed8c-9c58-4264-84fe-4ee23f9cda17638844838977337508"
+        },
+        {
+            "id": "c1bcb2b1-fe6b-423d-92ac-d11172f2a144",
+            "outputSocketId": "fb7ba293-2e88-4a14-8385-d61462afc71b638844793772620778",
+            "inputSocketId": "40733bbb-79be-4d19-b50b-22adcb9c2b56639196446141588177"
+        },
+        {
+            "id": "e596866a-fb7e-4cd3-b4ae-ac82ef8f2212",
+            "outputSocketId": "6935072e-0db2-48f7-9f18-7fe001534125638844793772584760",
+            "inputSocketId": "40733bbb-79be-4d19-b50b-22adcb9c2b56639196446141588177"
         }
     ],
     "valueConnections": [
@@ -1066,19 +1129,19 @@
             "inputSocketId": "dd88eed1-83b2-497f-99a4-6f3cde3dfb67638844793772620778"
         },
         {
-            "id": "42acf3c5-49b4-4134-b6b5-61f09e920d82",
-            "outputSocketId": "d2964150-7235-416f-b243-77c156a6ffd3638844793681702495",
-            "inputSocketId": "22c492b1-61e8-4644-8646-3f021b4776c1638844793772631090"
-        },
-        {
-            "id": "2647754f-e279-4287-8442-90617aaa6462",
-            "outputSocketId": "88d23d67-2c09-4963-8b81-c46426275802638844793681707693",
-            "inputSocketId": "3a419fc8-bcd7-4f35-9a4c-7c6a882804d9638844793772631090"
-        },
-        {
             "id": "ba73f6ee-9b53-41c1-9848-cbd7f43ed052",
             "outputSocketId": "7c1ba839-7dd7-4106-93d4-2604161c6b82638844793681723214",
             "inputSocketId": "ebc7e78a-9248-480d-a344-36be1159860e638844793772615679"
+        },
+        {
+            "id": "13e6ae51-47a0-4d0f-b4ec-18dd73b39d67",
+            "outputSocketId": "d2964150-7235-416f-b243-77c156a6ffd3638844793681702495",
+            "inputSocketId": "4c60eed4-179d-4023-91a0-3cd8380e42d3638844839238895468"
+        },
+        {
+            "id": "285fef4f-24f2-4f13-8f06-94590814d505",
+            "outputSocketId": "88d23d67-2c09-4963-8b81-c46426275802638844793681707693",
+            "inputSocketId": "41aec2da-7f55-4848-809b-3f6a35c87a83638844839238895468"
         }
     ]
 }
